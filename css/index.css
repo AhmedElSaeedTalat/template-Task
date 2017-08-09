@@ -320,7 +320,7 @@ a,p,h1{
 }
 .body .Security{
 	color:white;
-	 font-size: 78px;
+	 font-size: 64px;
 	 font-weight: bold;
 }
 .body .Security2{
@@ -465,24 +465,25 @@ cursor: pointer;
     bottom: -73px;
     left: 45px;
 }
+
 @media only screen and (max-width: 500px) {
    .buttonSign {
         margin-top: 5%;
-    	margin-left: 49%;
+    	margin-left:35%;
     }
 
 }
 @media only screen and (max-width: 500px) {
    .body .Security2 {
         font-size: 30px;
-    	margin-left: -32%;
+    	margin-left: 27%;;
     
    
 }
 
 @media only screen and (max-width: 500px) {
    .body .ticket {
-    	margin-left: 28%;
+    	margin-left:    -167%;
     }
 
 }
@@ -494,14 +495,34 @@ cursor: pointer;
 }
 @media only screen and (max-width: 500px) {
   .body  .Security {
-  	margin-left: 20%;
-    	font-size: 35px;
+  	margin-left: -1%;
+    	font-size:40px;
     }
 
 }
 @media only screen and (max-width: 500px) {
  .body .paragraphsBody { 
-    	font-size: 11px;
+    font-size: 11px;
+    /*margin-left: -99%;*/
+    width: 152%;
+    }
+
+}
+@media only screen and (max-width: 500px) {
+ .arrowRight { 
+    	margin-top:30%;
+    }
+
+}
+@media only screen and (max-width: 500px) {
+ .arrowLeft { 
+    	margin-top:30%;
+    }
+
+}
+@media only screen and (max-width: 500px) {
+ .body  .border { 
+    	margin-left: 15%;
     }
 
 }
