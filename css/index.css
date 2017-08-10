@@ -1,17 +1,40 @@
 
+body{
+		font-family: Work Sans;
+		font-style: normal;
+		margin: 0px;
+		padding: 0px;
+}
+.Header{
+	background-image: url("https://ld-wp.template-help.com/wordpress_64077/wp-content/uploads/2016/11/slide-1.jpg");
+/*	background-size:100% 760px;
+*/	background-repeat: no-repeat;
+	display: block;
+	overflow: hidden;
+}
+.Header .logo{
+	margin-top: 11%;
+	margin-left: 9%;
+}
 .Header .image {
 	height: 902px;
 	/*width: 1920px;*/
 	width: 100%;
 	position: absolute;
+	
 }
 .Header .images {
 	position: relative;
-	height: 902px;
+	height: 100%;
 	width: 100%;
 	display: block;
 	overflow: hidden;
 	z-index: 1;
+	overflow: hidden;
+}
+.menu .drop-down{
+	font-size: 9px;
+	margin-left: 12%;
 }
 .wrappedImages{
 	background: ;
@@ -26,7 +49,7 @@
 	top: 0 
 }
 .theRow{
-	height: 902px;
+	height: 760px;
 	width: 100%;
 /*	background: url("../images/thLecture.jpg");
 	background-size: cover;*/
@@ -36,9 +59,12 @@
 }*/
 .Header .paragraphs{
 	text-decoration: none;
-	color: white;
+	color: #ffffff;
+	letter-spacing:0.7px;
 	padding-bottom: 8px;
-	 font-size: 17px;
+	 font-size: 15px;
+	font-family: Work Sans;
+
 }
 .Header a.paragraphs:hover{
 	border-bottom: 2px solid white;
@@ -55,8 +81,8 @@
 	    position: absolute;
 	    background: white;
 	    border-radius: 4px;
-	    height: 43px;
-	    width: 169px;
+	    height: 47px;
+		width: 166px;
 	    top:65px;
 	    left: -5px;
 	transition: all .5s linear;
@@ -87,7 +113,6 @@
 	position: relative;
 }
 .empty{
-	margin-top: 2%;
 }
 .mainPage:hover{
 	color: white;
@@ -100,7 +125,7 @@
 	visibility: hidden;
     position: absolute;
     background: white;
-    width: 185px;
+    width: 191px;
     border-radius: 4px;
     right: 172px;
     top: 1px;
@@ -129,7 +154,7 @@
 		    background: white;
 		    width: 185px;
 		    top: -2px;
-		    right: 186px;
+		    right: 194px;
 		    border-radius: 4px;
 		    transition: all .1s linear;
 		}
@@ -155,7 +180,7 @@
 	    width: 200px;
 	    border-radius: 4px;
 	    top: 4px;
-	    right: 187px;
+	    right: 194px;
 	    background: white;
 	    visibility: hidden;
     	transition: all .1s linear;
@@ -182,7 +207,7 @@
 	    width: 200px;
 	    border-radius: 4px;
 	    top: -1px;
-	    right: 187px;
+	    right: 194px;
 	    background: white;
 	    visibility: hidden;
     	transition: all .1s linear;
@@ -198,7 +223,7 @@
 	    width: 200px;
 	    border-radius: 4px;
 	    top: -1px;
-	    right: 187px;
+	    right: 194px;
 	    background: white;
 	    visibility: hidden;
     	transition: all .1s linear;
@@ -214,7 +239,7 @@
 	    width: 200px;
 	    border-radius: 4px;
 	    top: -1px;
-	    right: 187px;
+	    right: 194px;
 	    background: white;
 	    visibility: hidden;
     	transition: all .1s linear;
@@ -230,7 +255,7 @@
 	    width: 200px;
 	    border-radius: 4px;
 	    top: -1px;
-	    right: 187px;
+	    right: 194px;
 	    background: white;
 	    visibility: hidden;
     	transition: all .1s linear;
@@ -247,7 +272,7 @@
 	    width: 200px;
 	    border-radius: 4px;
 	    top: -1px;
-	    right: 187px;
+	    right: 194px;
 	    background: white;
 	    visibility: hidden;
     	transition: all .1s linear;
@@ -296,12 +321,58 @@
 	    color: white;
 	    border-radius: 4px;
 	    border: 1px solid white;
-	    margin-top: -11%;
+	   margin-top: -3%;
 
 	}
+	.buttonSignMD{
+	    width: 135px;
+	    height: 38px;
+	    color: white;
+	    border-radius: 4px;
+	    border: 1px solid white;
+	   margin-top: -3%;
+		margin-left: -74%;
+	}
+	.buttonSignXS{
+	    width: 135px;
+	    height: 38px;
+	    color: white;
+	    border-radius: 4px;
+	    border: 1px solid white;
+	    margin-left: 34%;
+		margin-top: 15%;
+	}
+	.buttonSignXS:hover{
+	transition-duration: .5s;
+	background: #6839ff;
+	cursor: pointer;
+}
+.buttonSignSM{
+	    width: 135px;
+	    height: 38px;
+	    color: white;
+	    border-radius: 4px;
+	    border: 1px solid white;
+		margin-left: 80%;
+    margin-top: -10%;
+	}
+	.buttonSignSM:hover{
+	transition-duration: .5s;
+	background: #6839ff;
+	cursor: pointer;
+}
+	.buttonSignMD:hover{
+	transition-duration: .5s;
+	background: #6839ff;
+	cursor: pointer;
+}
 	.sign{
-	    text-align: center;
 	    margin-top: 6%;	
+	    text-transform: uppercase;
+	    text-align: center;
+	    font-weight: bold;
+		font-family: Work Sans,sans-serif;
+
 }
 .buttonSign:hover{
 	transition-duration: .5s;
@@ -309,27 +380,51 @@
 	cursor: pointer;
 }
 .loweerRaw{
-	margin-top: 2%;
-	margin-left: 12%;
+	margin-top: 3%;
+	    margin-left: 5%;
 }
-a,p,h1{
-	font-family: Work-Sans;
-}
+
 .body{
 	position: absolute;
 }
 .body .Security{
 	color:white;
-	 font-size: 64px;
-	 font-weight: bold;
+	 font-size: 71px;
+	 font-weight: 900;
+	font-family: Work Sans,sans-serif;
+	 line-height: 1;
+	 position: relative;
 }
 .body .Security2{
+    color: white;
+    font-size: 48px;
+    text-transform: uppercase;
+    font-family: Work Sans,sans-serif;
+    text-align: center;
+
+}
+.body .SecurityXS{
 	color:white;
-	 font-size: 51px;
+	 font-size: 36px;
+	 font-weight: 900;
+	font-family: Work Sans,sans-serif;
+	 line-height: 1;
+	 position: relative;
+}
+.body .Security2XS{
+    color: white;
+    font-size: 34px;
+    text-transform: uppercase;
+    font-family: Work Sans,sans-serif;
+    text-align: center;
 
 }
 .body .border{
 	border-bottom: 1px solid #928d8d;
+    margin-top: 11px;
+}
+.body .borderXS{
+	border-bottom: 4px solid white;
     margin-top: 11px;
 }
 .body .bold{
@@ -340,44 +435,53 @@ a,p,h1{
 }
 .body .paragraphsBody{
     color: white;
-    font-size: 17px;
+    font-size: 15px;
     margin-top: 4%;
+    text-align: center;
 }
 .body .pa{
 
     color: white;
     font-size: 17px;
-    margin-left: 37%;
+    text-align: center;
     margin-top: -2%;
 }
 .class{
 	z-index: 2;
+	margin-top: 11%;
 }
 .class1{
 	z-index: 5;
 }
 .body .ticket{
-	    background: #6839ff;
+    background: #4911ff;
     color: white;
-    padding-left: 42px;
     border-radius: 4px;
-    height: 43px;
+    height: 46px;
     width: 208px;
-    margin-left: 13%;
+    margin-left: 20%;
     transition:all .5s linear;
+	font-family: Work Sans,sans-serif;
+
+
 }
 .body .buy{
 	    padding-top: 8px;
-
+	    text-transform: uppercase;
+	    width: 100%;
+	   text-align: center;
+	   	font-family: Work Sans;
+		font-weight: bold;
+		font-size: 20px;
+		padding-top: 11px;
 }
 .body .ticket:hover{
 	background: #3a3744;
 	cursor: pointer;
 }
 .areaclass .whiteArea{
-	background: rgba(255,255,255,0.5);
-	height: 177px;
-		    margin-left: 5%;
+	margin-top: 4%;
+    height: 139px;
 
 }
 .areaclass .shape1{
@@ -388,18 +492,24 @@ a,p,h1{
 	box-shadow: 1px 4px 5px #888888;
 	margin-bottom: 60%;
 	position: relative;
+	margin: 0 auto;
 }
 
 .areaclass{
-	margin-top: 12px;
-}
+	background-image: url("https://ld-wp.template-help.com/wordpress_64077/wp-content/uploads/2016/11/counter-bg.jpg");
+	background-size: cover;
+	    height: 360px;
+/*	        margin-top: -20%;
+*/}
 .areaclass .shape2{
-    margin-top: 39px;
-    margin-left: 33px;
+    /*margin-top: 39px;
+    margin-left: 33px;*/
     font-size: 45px;
     color: #6839ff;
     transition:all .5s linear;
-
+	text-align: center;
+	line-height: 116px;
+	display: block;
 }
 .areaclass .shape1:hover{
 	background: #6839ff;
@@ -452,13 +562,13 @@ cursor: pointer;
 	    /*margin-top: 42%;*/
     font-size: 41px;
     font-weight: bold;
-    /*margin-left: 41%;*/
+	text-align: center;
 }
 .yy{
 	font-size: 29px;
 }
 .res{
-	margin-bottom: 28%;
+	margin-left: 4%;
 }
 .rd{
 	position: absolute;
@@ -466,70 +576,11 @@ cursor: pointer;
     left: 45px;
 }
 
-@media only screen and (max-width: 500px) {
-   .buttonSign {
-        margin-top: 5%;
-    	margin-left:35%;
-    }
 
-}
-@media only screen and (max-width: 500px) {
-   .body .Security2 {
-        font-size: 30px;
-    	margin-left: 27%;;
-    
-   
-}
-
-@media only screen and (max-width: 500px) {
-   .body .ticket {
-    	margin-left:    -167%;
-    }
-
-}
-@media only screen and (max-width: 500px) {
-   .areaclass {
-    	margin-left: 30%;
-    }
-
-}
-@media only screen and (max-width: 500px) {
-  .body  .Security {
-  	margin-left: -1%;
-    	font-size:40px;
-    }
-
-}
-@media only screen and (max-width: 500px) {
- .body .paragraphsBody { 
-    font-size: 11px;
-    /*margin-left: -99%;*/
-    width: 152%;
-    }
-
-}
-@media only screen and (max-width: 500px) {
- .arrowRight { 
-    	margin-top:30%;
-    }
-
-}
-@media only screen and (max-width: 500px) {
- .arrowLeft { 
-    	margin-top:30%;
-    }
-
-}
-@media only screen and (max-width: 500px) {
- .body  .border { 
-    	margin-left: 15%;
-    }
-
-}
 .classMobile{
 	position: absolute;
 	width:100%;
-	height: 40px;
+	top:0px;
 }
 .sara{
 	color: white;
@@ -537,7 +588,7 @@ cursor: pointer;
 .images .mobileProperties{
 	background-color: white;
 	width:100%;
-	height: 20px;
+	height: 29px;
 }
 .images .Options{
 	display: none;
@@ -555,4 +606,12 @@ cursor: pointer;
 li:hover{
 	color: blue;
 	cursor: pointer;
+}
+
+.wrappingIcons{
+
+}
+
+.lola{
+	background-color: yellow;
 }
