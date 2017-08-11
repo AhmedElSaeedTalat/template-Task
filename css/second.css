@@ -12,6 +12,15 @@
 	color: white;
 	font-family: Work Sans,sans-serif;
 }
+.info .textMD{
+	font-size: 48px;
+    text-transform: uppercase;
+	font-style: normal;
+	font-weight: bold;
+	color: white;
+	font-family: Work Sans,sans-serif;
+	margin-left: -57%;
+}
 .info .textSM{
 	font-size: 29px;
 	line-height: 36px;
@@ -52,8 +61,8 @@
    		 margin-left: 42%;
 }
 .info .margin6SM{
-	        margin-left: 44%;
-   			 margin-top: -27%;
+	       margin-left: 22%;
+			margin-top: -39%;
 }
 .info .text1{
 	font-size: 24px;
