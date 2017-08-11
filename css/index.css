@@ -16,7 +16,7 @@ body{
 	background-size: cover;
 }
 .Header .logo{
-	margin-top: 22%;
+	margin-top:  7.5%;
     margin-left: -1%;
 }
 .Header .image {
@@ -326,7 +326,7 @@ body{
 	    color: white;
 	    border-radius: 4px;
 	    border: 1px solid white;
-	   margin-top: -3%;
+	  margin-top: 17%
 
 	}
 	.buttonSignMD{
@@ -372,7 +372,7 @@ body{
 	cursor: pointer;
 }
 	.sign{
-	    margin-top: 10%;	
+	    margin-top: 6%;	
 	    text-transform: uppercase;
 	    text-align: center;
 	    font-weight: bold;

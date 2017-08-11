@@ -3,11 +3,12 @@
     margin: 0 auto;
 }
 .inlineList{
-    list-style: none;
+        list-style: none;
     color: white;
-    margin-left: 29%;
+    /* margin-left: 29%; */
     margin-top: 3%;
-    width: 71%;
+    width: 100%;
+    margin: 0 auto;
 }
 .Header .inline{
 	display: inline-block;
@@ -184,4 +185,7 @@
 }
 .marginSMHere1{
 	margin-bottom:30%;
+}
+.marginTopMd{
+	margin-top: 3%;
 }
