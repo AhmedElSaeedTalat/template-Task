@@ -4,17 +4,20 @@ body{
 		font-style: normal;
 		margin: 0px;
 		padding: 0px;
+
 }
+
 .Header{
 	background-image: url("https://ld-wp.template-help.com/wordpress_64077/wp-content/uploads/2016/11/slide-1.jpg");
-/*	background-size:100% 760px;
-*/	background-repeat: no-repeat;
+	/*background-size:100% 760px;*/
+	background-repeat: no-repeat;
 	display: block;
 	overflow: hidden;
+	background-size: cover;
 }
 .Header .logo{
 	margin-top: 11%;
-	margin-left: 9%;
+    margin-left: -1%;
 }
 .Header .image {
 	height: 902px;
@@ -24,13 +27,11 @@ body{
 	
 }
 .Header .images {
-	position: relative;
 	height: 100%;
 	width: 100%;
 	display: block;
 	overflow: hidden;
 	z-index: 1;
-	overflow: hidden;
 }
 .menu .drop-down{
 	font-size: 9px;
@@ -60,10 +61,11 @@ body{
 .Header .paragraphs{
 	text-decoration: none;
 	color: #ffffff;
-	letter-spacing:0.7px;
+	line-height:28px;
 	padding-bottom: 8px;
-	 font-size: 15px;
-	font-family: Work Sans;
+	 font-size: 16px;
+	 font-weight: 300;
+	font-family: 'Work Sans', sans-serif;
 
 }
 .Header a.paragraphs:hover{
@@ -89,7 +91,7 @@ body{
 }
 .more:hover .box{
 		top:50px;
-		bottom:0px
+		bottom:0px;
 		display: block;
 		visibility: visible;
 		cursor: pointer;
@@ -99,7 +101,9 @@ body{
     margin-left: 15%;
     margin-top: 6%;
 }
-
+.menu .pages:hover{
+    color: white;
+}
 .menu .pages1{
     margin-left: 15%;
     margin-top: 4%;
@@ -111,6 +115,7 @@ body{
 }
 .menu .mainPage{
 	position: relative;
+	color: black;
 }
 .empty{
 }
@@ -288,31 +293,31 @@ body{
 		font-size: 10px;
 	}
 	.menu .modify1{
-		padding-left: 30px;
+		padding-left: 20px;
 		font-size: 10px;
 	}
 	.menu .modify2{
-		padding-left: 10px;
-		font-size: 10px;
+/*		padding-left: 10px;
+*/		font-size: 10px;
 	}
 	.menu .modify3{
-		padding-left: 45px;
+		padding-left: 43px;
 		font-size: 10px;
 	}
 	.menu .modify4{
-		padding-left: 50px;
+		padding-left: 54px;
 		font-size: 10px;
 	}
 	.menu .modify5{
-		padding-left: 72px;
+		padding-left: 79px;
 		font-size: 10px;
 	}
 	.menu .modify6{
-		padding-left: 75px;
+		padding-left: 80px;
 		font-size: 10px;
 	}
 	.menu .modify7{
-		padding-left: 84px;
+		padding-left: 94px;
 		font-size: 10px;
 	}
 	.buttonSign{
@@ -367,7 +372,7 @@ body{
 	cursor: pointer;
 }
 	.sign{
-	    margin-top: 6%;	
+	    margin-top: 10%;	
 	    text-transform: uppercase;
 	    text-align: center;
 	    font-weight: bold;
@@ -378,6 +383,7 @@ body{
 	transition-duration: .5s;
 	background: #6839ff;
 	cursor: pointer;
+	color: white
 }
 .loweerRaw{
 	margin-top: 3%;
@@ -419,19 +425,31 @@ body{
     text-align: center;
 
 }
-.body .border{
+ .border{
 	border-bottom: 1px solid #928d8d;
-    margin-top: 11px;
+       margin-top: 35px;
 }
 .body .borderXS{
 	border-bottom: 4px solid white;
     margin-top: 11px;
 }
-.body .bold{
+.bold{
 	border-bottom: 4px solid white;
-    width: 46%;
-    margin-left: 30%;
-    transform: translate(-25px,2px);
+        width: 36%;
+        margin: 0 auto;
+            transform: translate(0px,2px);
+}
+.bold11{
+	border-bottom: 4px solid white;
+        width: 80%;
+        margin: 0 auto;
+            transform: translate(0px,2px);
+}
+.bold12{
+	border-bottom: 4px solid white;
+        width: 58%;
+        margin: 0 auto;
+            transform: translate(0px,2px);
 }
 .body .paragraphsBody{
     color: white;
@@ -453,19 +471,18 @@ body{
 .class1{
 	z-index: 5;
 }
-.body .ticket{
+ .ticket{
     background: #4911ff;
     color: white;
     border-radius: 4px;
     height: 46px;
     width: 208px;
-    margin-left: 20%;
     transition:all .5s linear;
 	font-family: Work Sans,sans-serif;
-
-
+    margin: 0 auto;
+    margin-bottom: 21%;
 }
-.body .buy{
+ .buy{
 	    padding-top: 8px;
 	    text-transform: uppercase;
 	    width: 100%;
@@ -475,7 +492,7 @@ body{
 		font-size: 20px;
 		padding-top: 11px;
 }
-.body .ticket:hover{
+ .ticket:hover{
 	background: #3a3744;
 	cursor: pointer;
 }
@@ -486,10 +503,9 @@ body{
 }
 .areaclass .shape1{
 	border-radius: 100%;
-	border: 1px solid #eee;
 	height: 116px;
 	width: 116px;
-	box-shadow: 1px 4px 5px #888888;
+	box-shadow: 1px 1px 5px #888888;
 	margin-bottom: 60%;
 	position: relative;
 	margin: 0 auto;
@@ -498,7 +514,7 @@ body{
 .areaclass{
 	background-image: url("https://ld-wp.template-help.com/wordpress_64077/wp-content/uploads/2016/11/counter-bg.jpg");
 	background-size: cover;
-	    height: 360px;
+	    min-height: 360px;
 /*	        margin-top: -20%;
 */}
 .areaclass .shape2{
