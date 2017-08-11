@@ -167,3 +167,21 @@
 	margin-right: 9%;
 	font-weight: 300;
 }
+.wrapperHere{
+    width: 195%;
+    margin: 0 auto;
+    display: block;
+}
+.marginSMHere{
+	margin-top:14%;
+}
+.xzSM{
+	    margin-top: 8%;
+    font-size: 41px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
+}
+.marginSMHere1{
+	margin-bottom:30%;
+}

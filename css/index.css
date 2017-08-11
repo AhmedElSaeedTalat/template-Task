@@ -496,12 +496,12 @@ body{
 	background: #3a3744;
 	cursor: pointer;
 }
-.areaclass .whiteArea{
+ .whiteArea{
 	margin-top: 4%;
     height: 139px;
 
 }
-.areaclass .shape1{
+ .shape1{
 	border-radius: 100%;
 	height: 116px;
 	width: 116px;
@@ -517,7 +517,7 @@ body{
 	    min-height: 360px;
 /*	        margin-top: -20%;
 */}
-.areaclass .shape2{
+ .shape2{
     /*margin-top: 39px;
     margin-left: 33px;*/
     font-size: 45px;
@@ -527,13 +527,13 @@ body{
 	line-height: 116px;
 	display: block;
 }
-.areaclass .shape1:hover{
+ .shape1:hover{
 	background: #6839ff;
 	border: none;
 	cursor: pointer;
 	/*color: white;*/
 }
-.areaclass .shape1:hover .shape2{
+ .shape1:hover .shape2{
 color: white;
 
 cursor: pointer;
@@ -575,7 +575,7 @@ cursor: pointer;
 	cursor: pointer
 }
 .xz{
-	    /*margin-top: 42%;*/
+    margin-top: 8%;
     font-size: 41px;
     font-weight: bold;
 	text-align: center;
