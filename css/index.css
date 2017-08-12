@@ -83,10 +83,11 @@ body{
 	    position: absolute;
 	    background: white;
 	    border-radius: 4px;
-	    height: 47px;
-		width: 166px;
+        height: 52px;
+    	width: 190px;
 	    top:65px;
 	    left: -5px;
+	        padding-top: 1%;
 	transition: all .5s linear;
 }
 .more:hover .box{
@@ -100,6 +101,7 @@ body{
 .menu .pages{
     margin-left: 15%;
     margin-top: 6%;
+        font-size: 14px;
 }
 .menu .pages:hover{
     color: white;
@@ -107,11 +109,13 @@ body{
 .menu .pages1{
     margin-left: 15%;
     margin-top: 4%;
-    padding-top: 4%;
+    padding-top: 2%;
+     font-size: 14px;
 }
 .menu .pages2{
     margin-left: 15%;
-    padding-top: 4%;
+    padding-top: 3%;
+     font-size: 14px;
 }
 .menu .mainPage{
 	position: relative;
@@ -121,7 +125,7 @@ body{
 }
 .mainPage:hover{
 	color: white;
-    height: 26px;
+    height: 30px;
     background: #4911ff;
     margin-top: -2px;
     cursor: pointer;
@@ -130,9 +134,9 @@ body{
 	visibility: hidden;
     position: absolute;
     background: white;
-    width: 191px;
+    width:209px;
     border-radius: 4px;
-    right: 172px;
+    right: 194px;
     top: 1px;
 	transition: all .5s linear;
 }
@@ -157,9 +161,9 @@ body{
 			visibility: hidden;
 		    position: absolute;
 		    background: white;
-		    width: 185px;
+	        width: 213px;
 		    top: -2px;
-		    right: 194px;
+		        right: 215px;
 		    border-radius: 4px;
 		    transition: all .1s linear;
 		}
@@ -182,10 +186,10 @@ body{
 	.menu .Dynamic{
 	    position: absolute;
 	    height: 43px;
-	    width: 200px;
+        width: 213px;
 	    border-radius: 4px;
 	    top: 4px;
-	    right: 194px;
+	       right: 215px;
 	    background: white;
 	    visibility: hidden;
     	transition: all .1s linear;
@@ -205,14 +209,14 @@ body{
 	.menu .pages3{
 		margin-top: 4%;
 		margin-left: 15%;
-    	padding-top: 2%;
+    	
 	}
 	.menu .Post{
 		 position: absolute;
-	    width: 200px;
+        width: 213px;
 	    border-radius: 4px;
 	    top: -1px;
-	    right: 194px;
+	      right: 215px;
 	    background: white;
 	    visibility: hidden;
     	transition: all .1s linear;
@@ -224,12 +228,12 @@ body{
 			cursor: pointer;
 	}
 	.menu .Blog{
-		 position: absolute;
-	    width: 200px;
+		position: absolute;
+        width: 213px;
 	    border-radius: 4px;
 	    top: -1px;
-	    right: 194px;
-	    background: white;
+    	right: 215px;	    
+    	background: white;
 	    visibility: hidden;
     	transition: all .1s linear;
 	}
@@ -241,10 +245,10 @@ body{
 	}
 	.menu .Bar{
 		 position: absolute;
-	    width: 200px;
+        width: 213px;
 	    border-radius: 4px;
 	    top: -1px;
-	    right: 194px;
+        right: 215px;
 	    background: white;
 	    visibility: hidden;
     	transition: all .1s linear;
@@ -257,10 +261,10 @@ body{
 	}
 	.menu .Head{
 		 position: absolute;
-	    width: 200px;
+        width: 213px;
 	    border-radius: 4px;
 	    top: -1px;
-	    right: 194px;
+        right: 215px;
 	    background: white;
 	    visibility: hidden;
     	transition: all .1s linear;
@@ -274,10 +278,10 @@ body{
 
 	.menu .foot{
 		 position: absolute;
-	    width: 200px;
+        width: 213px;
 	    border-radius: 4px;
 	    top: -1px;
-	    right: 194px;
+        right: 215px;
 	    background: white;
 	    visibility: hidden;
     	transition: all .1s linear;
@@ -295,25 +299,26 @@ body{
 	.menu .modify1{
 		padding-left: 20px;
 		font-size: 10px;
+		display: inline-block
 	}
 	.menu .modify2{
-/*		padding-left: 10px;
-*/		font-size: 10px;
+		padding-left: 26px;
+		font-size: 10px;
 	}
 	.menu .modify3{
 		padding-left: 43px;
 		font-size: 10px;
 	}
 	.menu .modify4{
-		padding-left: 54px;
+		padding-left: 44px;
 		font-size: 10px;
 	}
 	.menu .modify5{
-		padding-left: 79px;
+		padding-left: 25px;
 		font-size: 10px;
 	}
 	.menu .modify6{
-		padding-left: 80px;
+		padding-left: 29px;
 		font-size: 10px;
 	}
 	.menu .modify7{
@@ -339,13 +344,13 @@ body{
 		margin-left: -74%;
 	}
 	.buttonSignXS{
-	    width: 135px;
+  width: 135px;
 	    height: 38px;
 	    color: white;
 	    border-radius: 4px;
 	    border: 1px solid white;
-	    margin-left: 34%;
-		margin-top: 15%;
+	  margin-top: 17%;
+	margin:0 auto;
 	}
 	.buttonSignXS:hover{
 	transition-duration: .5s;

@@ -6,18 +6,31 @@
 		<link rel="stylesheet" href="../css/index.css">
 		<link rel="stylesheet" href="../css/second.css">
 		<link rel="stylesheet" href="../css/newCss.css">
-			<!-- <link rel="stylesheet" href="../css/mediaquery.css" media="screen and (min-width: 775px) and (max-width: 995px)">	 -->
+			<link rel="stylesheet" href="../css/mediaquery.css" media="screen and (min-width: 992px) and (max-width: 1200px)">	
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,700">
 
 </head>
 <body>
-<section name="Slide" class="Header">
+<div class="fullMobile">
+	<div>
+		<div class="remove1">
+			<span class="glyphicon glyphicon-remove remove" aria-hidden="true" id="close"></span>
+		</div>
+		<ul>
+			<li>About</li>
+			<li>Past</li>
+			<li>Teams</li>
+			<li>Tickets</li>
+		</ul>
+	</div>
+</div>
+<section name="Slide" class="Header" id="Header">
    <div class="visible-xs hidden-sm">
    	<div class="row">
    		<div class="col-xs-12 backgroundColorXS navbar-fixed-top">
-			<span class="glyphicon glyphicon-list iconOptions" aria-hidden="true" id="options"></span>
-
+			<div class="col-xs-1 "><span class="glyphicon glyphicon-list iconOptions" aria-hidden="true" id="options"></span></div>
+			<div class="col-xs-1 col-xs-offset-9"><span class="glyphicon glyphicon-search iconOptions" aria-hidden="true" id="option"></span></div>
    		</div>
    	</div>
    </div>
@@ -39,15 +52,20 @@
 					<li  class="inline paragraphs more"><a href="#" class="paragraphs  ">More</a>
 					<span class="glyphicon glyphicon-menu-down drop-down" aria-hidden="true" id="options1"></span>
 									
-									<div class="box menu">
+									<div class="box menu ">
+										<div class="arrowUp"></div>
+										<div class="TestimonialsWrapper visible-md">
+											<p class=" Testimonials">Testimonials <span class="glyphicon glyphicon-menu-right modify4" aria-hidden="true"></span></p>
+</p>
+										</div>
 										<div class="mainPage">
 
-											<p class="pages">Pages <span class="glyphicon glyphicon-menu-right modify" aria-hidden="true"></span></p>
+											<p class="pages ">Pages <span class="glyphicon glyphicon-menu-right modify" aria-hidden="true"></span></p>
 
 													<div class="childMenu">
 														<div class="coleredBackground">
 
-														<p class="pages1">Static Elements <span class="glyphicon glyphicon-menu-right modify1" aria-hidden="true"></span>
+														<p class="pages1"><span class="wrappingSpan">Static Elements</span> <span class="glyphicon glyphicon-menu-right modify1" aria-hidden="true"></span>
 															<div class="Static">
 																<div class="colors">
 																	<p class="pages1">lorem ipsum </p>
@@ -82,7 +100,7 @@
 															</div>
 													</div>
 													<div class="coleredBackground">
-														<p class="pages2">Dynamic Elements  <span class="glyphicon glyphicon-menu-right modify2" aria-hidden="true"></p>
+														<p class="pages2"><span class="wrappingSpan">Dynamic Elements </span>  <span class="glyphicon glyphicon-menu-right modify1" aria-hidden="true"></p>
 														<div class="Dynamic">
 															<div class="colorado">
 																<p class="pages3">Dynamic</p>
@@ -90,7 +108,7 @@
 														</div>
 													</div>
 													<div class="coleredBackground">
-														<p  class="pages2">Post Formats  <span class="glyphicon glyphicon-menu-right modify3" aria-hidden="true"></p>
+														<p  class="pages2"><span class="wrappingSpan">Post Formats </span> <span class="glyphicon glyphicon-menu-right modify1" aria-hidden="true"></p>
 															<div class="Post">
 														<div class="colors">
 																	<p class="pages1">lorem ipsum</p>
@@ -117,7 +135,7 @@
 															</div>
 													</div>
 													<div class="coleredBackground">
-														<p  class="pages2">Blog Layout  <span class="glyphicon glyphicon-menu-right modify4" aria-hidden="true"></p>
+														<p  class="pages2"><span class="wrappingSpan">Blog Layout </span> <span class="glyphicon glyphicon-menu-right modify1" aria-hidden="true"></p>
 														<div class="Blog">
 															<div class="colors">
 																	<p class="pages1">lorem ipsum</p>
@@ -143,7 +161,7 @@
 														</div>
 													</div>
 													<div class="coleredBackground">
-														<p  class="pages2">Side Bar  <span class="glyphicon glyphicon-menu-right modify5" aria-hidden="true"></p>
+														<p  class="pages2"><span class="wrappingSpan">Side Bar</span>  <span class="glyphicon glyphicon-menu-right modify1" aria-hidden="true"></p>
 														<div class="Bar">
 															<div class="colors">
 																	<p class="pages1">lorem ipsum</p>
@@ -160,7 +178,7 @@
 														</div>
 													</div>
 													<div class="coleredBackground">
-														<p  class="pages2">Headers  <span class="glyphicon glyphicon-menu-right modify6" aria-hidden="true"></p>
+														<p  class="pages2"><span class="wrappingSpan">Headers  </span><span class="glyphicon glyphicon-menu-right modify1" aria-hidden="true"></p>
 														<div class="Head">
 															<div class="colors">
 																	<p class="pages1">lorem ipsum</p>
@@ -186,7 +204,7 @@
 														</div>
 													</div>
 													<div class="coleredBackground">
-														<p  class="pages2">Footer  <span class="glyphicon glyphicon-menu-right modify7" aria-hidden="true"></p>
+														<p  class="pages2"><span class="wrappingSpan">Footer </span> <span class="glyphicon glyphicon-menu-right modify1" aria-hidden="true"></p>
 														<div class="foot">
 															<div class="colors">
 																	<p class="pages1">lorem ipsum</p>
@@ -224,9 +242,10 @@
 				</div>	
 				<!-- xs -->
 
+
 		</div>	
 		<!-- sm Menu -->
-		<div class="row visible-sm">
+		<div class="row visible-sm top">
 			<div class="col-sm-12">
 			<ul class="inlineList ">
 					
@@ -247,7 +266,7 @@
 													<div class="childMenu">
 														<div class="coleredBackground">
 
-														<p class="pages1">Static Elements <span class="glyphicon glyphicon-menu-right modify1" aria-hidden="true"></span>
+														<p class="pages1"><span class="wrappingSpan">Static Elements </span><span class="glyphicon glyphicon-menu-right modifyMargin1" aria-hidden="true"></span>
 															<div class="Static">
 																<div class="colors">
 																	<p class="pages1">lorem ipsum </p>
@@ -282,7 +301,7 @@
 															</div>
 													</div>
 													<div class="coleredBackground">
-														<p class="pages2">Dynamic Elements  <span class="glyphicon glyphicon-menu-right modify2" aria-hidden="true"></p>
+														<p class="pages2"><span class="wrappingSpan">Dynamic Elements</span>  <span class="glyphicon glyphicon-menu-right modifyMargin2" aria-hidden="true"></p>
 														<div class="Dynamic">
 															<div class="colorado">
 																<p class="pages3">Dynamic</p>
@@ -290,7 +309,7 @@
 														</div>
 													</div>
 													<div class="coleredBackground">
-														<p  class="pages2">Post Formats  <span class="glyphicon glyphicon-menu-right modify3" aria-hidden="true"></p>
+														<p  class="pages2"><span class="wrappingSpan">Post Formats </span> <span class="glyphicon glyphicon-menu-right modifyMargin3" aria-hidden="true"></p>
 															<div class="Post">
 														<div class="colors">
 																	<p class="pages1">lorem ipsum</p>
@@ -317,7 +336,7 @@
 															</div>
 													</div>
 													<div class="coleredBackground">
-														<p  class="pages2">Blog Layout  <span class="glyphicon glyphicon-menu-right modify4" aria-hidden="true"></p>
+														<p  class="pages2"><span class="wrappingSpan">Blog Layout  </span><span class="glyphicon glyphicon-menu-right modifyMargin4" aria-hidden="true"></p>
 														<div class="Blog">
 															<div class="colors">
 																	<p class="pages1">lorem ipsum</p>
@@ -343,7 +362,7 @@
 														</div>
 													</div>
 													<div class="coleredBackground">
-														<p  class="pages2">Side Bar  <span class="glyphicon glyphicon-menu-right modify5" aria-hidden="true"></p>
+														<p  class="pages2"><span class="wrappingSpan">Side Bar</span>  <span class="glyphicon glyphicon-menu-right modifyMargin5" aria-hidden="true"></p>
 														<div class="Bar">
 															<div class="colors">
 																	<p class="pages1">lorem ipsum</p>
@@ -360,7 +379,7 @@
 														</div>
 													</div>
 													<div class="coleredBackground">
-														<p  class="pages2">Headers  <span class="glyphicon glyphicon-menu-right modify6" aria-hidden="true"></p>
+														<p  class="pages2"><span class="wrappingSpan">Headers  </span><span class="glyphicon glyphicon-menu-right modifyMargin6" aria-hidden="true"></p>
 														<div class="Head">
 															<div class="colors">
 																	<p class="pages1">lorem ipsum</p>
@@ -386,7 +405,7 @@
 														</div>
 													</div>
 													<div class="coleredBackground">
-														<p  class="pages2">Footer  <span class="glyphicon glyphicon-menu-right modify7" aria-hidden="true"></p>
+														<p  class="pages2"><span class="wrappingSpan">Footer </span> <span class="glyphicon glyphicon-menu-right modifyMargin7" aria-hidden="true"></p>
 														<div class="foot">
 															<div class="colors">
 																	<p class="pages1">lorem ipsum</p>
@@ -416,18 +435,24 @@
 				</div>
 				</div>
 		</div>
-		<div class="col-xs-12 text-center visible-xs">
-					<a href="#">  <img src="https://ld-wp.template-help.com/wordpress_64077/wp-content/themes/operationcode/assets/images/invert-logo.png"" alt="" class="logo"></a>
+		<div class="col-xs-12 text-center visible-xs logoTop" >
+					<a href="#">  <img src="https://ld-wp.template-help.com/wordpress_64077/wp-content/themes/operationcode/assets/images/invert-logo.png"" alt="" ></a>
 
-				</div>					
+				</div>	
+				
+				<div class=" col-xs-12 hidden-sm hidden-md  hidden-lg hidden-xl  toCenter ">
+				<div class="visible-xs extendWidth">	
+					<div class="buttonSignXS"><p class="sign">SIGN UP</p></div>
+				</div>
+				</div>				
 	</div>	
 	<!--    body -->
-		<div class="container down">
+		<div class="container ">
 			<div class="row">
-				<div class="text-center hidden-md hidden-sm hidden-xs">
+				<div class="text-center hidden-md hidden-sm hidden-xs down">
 					<h1 class="parInBody">CYBER SECURITY</h1>
 				</div>
-				<div class="text-center visible-md visible-md">
+				<div class="text-center visible-md visible-md down"  >
 					<h1 class="parInBodyMD">CYBER SECURITY</h1>
 				</div>
 				<div class="text-center hidden-md visible-sm">
@@ -484,7 +509,7 @@
 		
 </section>
 	<!-- white area -->
-<section name="whitearea" class="areaclass">
+<section name="whitearea" class="areaclass" id="area">
 	<div class="container ">
 		<div class="row hidden-sm">
 			<div class="whiteArea">
@@ -616,8 +641,7 @@
 			</div>
 		</div>
 		
-		</div>
-	</div>
+
 </section>
 
 
@@ -726,6 +750,7 @@
 			</div>
 			</div>
 </section>
-<!-- <script src="../js/main.js"></script> -->
+<script src="../js/jquery-3.1.1.js"></script>
+<script src="../js/main.js"></script>
 </body>
 </html>	
