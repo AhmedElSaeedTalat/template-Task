@@ -2,23 +2,15 @@
     width: 80%;
     margin: 0 auto;
 }
-.inlineList{
-        list-style: none;
-    color: white;
-    /* margin-left: 29%; */
-    margin-top: 3%;
-    width: 100%;
-    margin: 0 auto;
-}
+
 .Header .inline{
 	display: inline-block;
     padding-left: 27px;
     }
-#options{
-	    font-size: 18px;
-}
+
 #option{
 	    font-size: 18px;
+	    cursor: pointer;
 }
 .addMargin{
 	    margin-left: 3%;
@@ -27,41 +19,12 @@
 .chanePostionMiddleScreen{
 	margin-top: 0%;
 }
-/*@media only screen and (max-width: 768px) {*/
-/*		{
-			color: red;
-		}
-    }
-}*/
+
 .inlineDiv{
 	display: inline-block;
 }
-.parInBody{
-	color: white;
-	 font-size: 90px;
-	line-height: 90px;
- 	font-weight: 700;
-	font-family: 'Work Sans', sans-serif;
-	text-transform: uppercase;
-}
-.parInBodyMD{
-		color: white;
-	 	font-size: 90px;
-	 	line-height: 90px;
-	 	font-weight: 700;
-		font-family: 'Work Sans', sans-serif;
-		text-transform: uppercase;
 
-}
-.parInBodySM{
-		color: white;
-	 	font-size: 60px;
-	 	line-height: 60px;
-	 	font-weight: 700;
-		font-family: 'Work Sans', sans-serif;
-		text-transform: uppercase;
 
-}
 .parInBodyXS{
 		color: white;
 		font-size: 40px;
@@ -71,23 +34,8 @@
 		text-transform: uppercase;
 
 }
-.parInBody1{
-	color: white;
-	 font-size: 60px;
-	line-height: 60px;
- 	font-weight: 300;
-	font-family: 'Work Sans', sans-serif;
-	text-transform: uppercase;
-}
-.parInBody1MD{
-		color: white;
-	 	font-size: 60px;
-	 	line-height: 60px;
-	 	font-weight: 300;
-		font-family: 'Work Sans', sans-serif;
-		text-transform: uppercase;
 
-}
+
 .parInBody1SM{
 		color: white;
 	 	font-size: 36px;
@@ -98,18 +46,8 @@
 		margin-top: -1%;
 
 }
-.parInBody1XS{
-		color: white;
-		font-size: 40px;
-	 	line-height: 40px;
-		font-weight: 900;
-		font-family: 'Work Sans', sans-serif;
-		text-transform: uppercase;
 
-}
-.down{
-	margin-top:7%;
-}
+
 .marginText{
 	margin-top: -2%;
 }
@@ -130,52 +68,16 @@
 .info .classMargin{
 	    margin-top: -6%;
 }
-.info .classMarginSM{
-	        margin-top: -47%;
-}
-.info .classMarginMD{
-	       margin-top: -21%;
-			margin-left: 40%;
-}
+
+
 .info .marginHere{
-	margin-left: 19%;
+	margin-left: 16%;
 }
-.info .text2SM{
-	font-style: normal;
-    font-size: 20px;
-    letter-spacing: 0.7px;
-    color: #eee;
-    line-height: 35px;
-    font-family: Work Sans,sans-serif;
-    font-weight: 300;
-     margin-top: -6%;
-    margin-left: 3%;
-}
-.Header .backgroundColorXS{
-	background-color: white;
-	min-height: 40px;
-}
-#options1{
-	font-size: 11px;
-}
-.text3MD{
-	font-size: 29px;
-	line-height: 36px;
-    text-transform: uppercase;
-	font-style: normal;
-	font-weight: bold;
-	color: white;
-	font-family: Work Sans,sans-serif;
-	/*margin-left: 62%;*/
-	margin-top: 20%;
-	margin-right: 9%;
-	font-weight: 300;
-}
-.wrapperHere{
-    width: 195%;
-    margin: 0 auto;
-    display: block;
-}
+
+
+
+
+
 .marginSMHere{
 	margin-top:14%;
 }
@@ -189,33 +91,9 @@
 .marginSMHere1{
 	margin-bottom:30%;
 }
-.marginTopMd{
-	margin-top: 3%;
-}
-.wrappingSpan{
-	    width: 71%;
-    display: inline-block;
-}
-.Testimonials{
-    margin-top: 5%;
-    font-size: 14px;
-	color: black;
-	width: 100%;
-    margin-left: 11%;
-}
-.Testimonials:hover{
-   color: white;
-}
-.TestimonialsWrapper{
-	border-bottom:1px solid #eee;
-	width: 100%;
-	height: 33px;
-}
-.TestimonialsWrapper:hover {
-	color: white;
-    background: #4911ff;
-    cursor: pointer;
-}
+
+
+
 .top{
 	margin-top: 2%;
 }
@@ -247,19 +125,9 @@
 	padding-left: 25px;
 		font-size: 10px;
 }
-.arrowUp{
-    position: absolute;
-    width: 0;
-    height: 0;
-    border-left: 6px solid transparent;
-    border-right: 6px solid transparent;
-    border-bottom: 10px solid white;
-    top: -9px;
-    left: 49px;
 
-}
 .logoTop{
-	margin-top: 15%;
+	margin-top: 19%;
 }
 .extendWidth{
 	width: 100%;
@@ -287,6 +155,12 @@
     margin-left: 4%;
     margin-top: 2%;
 }
+.remove2{
+    font-size: 21px;
+    cursor: pointer;
+	visibility: hidden;
+}
+
 
 .remove:hover{
 	cursor: pointer;
@@ -295,6 +169,37 @@
     width: 100%;
     height: 43px;
     box-shadow: 5px 3px 1px #eee;}
-    .iconOptions:hover{
-    	cursor: pointer;
+  
+   
+        .marginMobile{
+    	    margin-top: -5%;
     }
+    .Mobile{
+    	position: relative;
+    }
+    .Mobile .input {
+		margin-top: 5%;
+		border:none;
+		outline: none;
+		    }
+		    .Mobile .marginUp{
+		    	 margin-top: -6%;
+
+		    }
+
+	
+
+	.Mobile .addMargin{
+		margin-top: 2%;
+	}
+
+	
+
+	.fullMobile .Margin{
+		margin-top: 21%;
+	}
+
+	.headerContainerr{
+		    position: relative;
+
+	}

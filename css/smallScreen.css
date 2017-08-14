@@ -1,0 +1,96 @@
+.Header .marginTop{
+	margin-top: 12%;
+	width: 687px;
+    margin-left: -13%;
+}
+.Header .buttonSign {
+    width: 135px;
+    height: 38px;
+    color: white;
+    border-radius: 4px;
+    border: 1px solid white;
+    margin-top: 17%;
+	margin-left: 7%;
+    }
+.Style-Text-Body{
+		color: white;
+	 	font-size: 60px;
+	 	line-height: 60px;
+	 	font-weight: 700;
+		font-family: 'Work Sans', sans-serif;
+		text-transform: uppercase;
+
+}
+.Style-Text-Body1{
+		color: white;
+	 	font-size: 36px;
+	 	line-height: 36px;
+	 	font-weight: 300;
+		font-family: 'Work Sans', sans-serif;
+		text-transform: uppercase;
+		margin-top: -1%;
+
+}
+ .bold{
+	border-bottom: 4px solid white;
+        width: 58%;
+        margin: 0 auto;
+            transform: translate(0px,2px);
+}
+.info .text{
+	font-size: 29px;
+	line-height: 36px;
+    text-transform: uppercase;
+	font-style: normal;
+	font-weight: bold;
+	color: white;
+	font-family: Work Sans,sans-serif;
+	margin-left: 62%;
+}
+.info .text1{
+	font-size: 24px;
+    line-height: 34px;
+	font-style: normal;
+	font-weight: bold;
+	color: white;
+	font-family: Work Sans,sans-serif;
+    margin-top: 5%;
+}
+.info .marginHere{
+	margin-left: 19%;
+}
+.info .classMargin{
+	        margin-top: -47%;
+}
+.info  .inside{
+    position: absolute;
+    border-bottom: 4px solid white;
+    top: 0px;
+    width: 99px;
+        transform: translate(91px,-2px);
+}
+.info .margin6{
+	       margin-left: 22%;
+			margin-top: -39%;
+}
+.info .text3{
+	font-style: normal;
+    font-size: 28px;
+    letter-spacing: 0.7px;
+    line-height: 33px;
+    font-weight: 300;
+    color: white;
+	font-family: Work Sans,sans-serif;
+	
+}
+.info .text2{
+	font-style: normal;
+    font-size: 20px;
+    letter-spacing: 0.7px;
+    color: #eee;
+    line-height: 35px;
+    font-family: Work Sans,sans-serif;
+    font-weight: 300;
+     margin-top: -6%;
+    margin-left: 3%;
+}

@@ -1,6 +1,56 @@
-.box{
+.Header .first-child-menu{
   height: 85px;
 }
-.menu .pages{
+.menu .Style-Pages-Text{
   margin-top: 1%;
+}
+.Style-Text-Body{
+    color: white;
+    font-size: 90px;
+    line-height: 90px;
+    font-weight: 700;
+    font-family: 'Work Sans', sans-serif;
+    text-transform: uppercase;
+}
+.Style-Text-Body1{
+    color: white;
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 300;
+    font-family: 'Work Sans', sans-serif;
+    text-transform: uppercase;
+
+}
+.info .text{
+  font-size: 48px;
+    text-transform: uppercase;
+  font-style: normal;
+  font-weight: bold;
+  color: white;
+  font-family: Work Sans,sans-serif;
+  margin-left: -57%;
+}
+.info  .inside{
+    position: absolute;
+    border-bottom: 4px solid white;
+    top: 0px;
+    width: 99px;
+        transform: translate(91px,-2px);
+}
+.info .classMargin{
+         margin-top: -21%;
+      margin-left: 40%;
+}
+.text3{
+  font-size: 29px;
+  line-height: 36px;
+    text-transform: uppercase;
+  font-style: normal;
+  font-weight: bold;
+  color: white;
+  font-family: Work Sans,sans-serif;
+  /*margin-left: 62%;*/
+  margin-top: 20%;
+  margin-right: 9%;
+  font-weight: 300;
 }

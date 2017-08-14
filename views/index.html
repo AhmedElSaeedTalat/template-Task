@@ -3,46 +3,66 @@
 <head>
 	<title>Main template</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-		<link rel="stylesheet" href="../css/index.css">
-		<link rel="stylesheet" href="../css/second.css">
 		<link rel="stylesheet" href="../css/newCss.css">
-			<link rel="stylesheet" href="../css/mediaquery.css" media="screen and (min-width: 992px) and (max-width: 1200px)">	
+		<link rel="stylesheet" href="../css/main.css">
+		<link rel="stylesheet" href="../css/mediaquery.css" media="screen and (min-width: 992px) and (max-width: 1200px)">
+		<link rel="stylesheet" href="../css/smallScreen.css" media="screen and (min-width: 768px) and (max-width: 991px)">	
+
+
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,700">
 
 </head>
 <body>
-<div class="fullMobile">
-	<div>
-		<div class="remove1">
-			<span class="glyphicon glyphicon-remove remove" aria-hidden="true" id="close"></span>
-		</div>
-		<ul>
-			<li>About</li>
-			<li>Past</li>
-			<li>Teams</li>
-			<li>Tickets</li>
-		</ul>
-	</div>
-</div>
+
+	<!-- mobile header -->
+			<section name="Mobile Header" class="Mobile">	
+					<div class="container visible-xs">
+	   					<div class="row backgroundColorXS navbar-fixed-top">
+								<div class="col-xs-2 col-xs-offset-1   margin">
+									<span class="glyphicon glyphicon-list " aria-hidden="true" id="options"></span>
+									<span class="glyphicon glyphicon-remove  " aria-hidden="true" id="close2"></span>
+								</div>
+									<div class="col-xs-5 " id="margin">
+										<input type="text"  class="input" placeholder="Search" id="input" />
+									</div>
+								<div class="col-xs-2 col-xs-offset-2 " id="search">
+									<span class="glyphicon glyphicon-remove " aria-hidden="true" id="close1"></span><br>
+									<span class="glyphicon glyphicon-search iconOptions" aria-hidden="true" id="searchIcon" ></span>
+								</div>
+	  					 </div>
+	  					 </div>
+	   
+				<div class="fullMobile">
+					<div>
+
+						<ul>
+							<li class="Margin">About</li>
+							<li>Past</li>
+							<li>Teams</li>
+							<li>Tickets</li>
+						</ul>
+					</div>
+			</section>
+
+
+
 <section name="Slide" class="Header" id="Header">
-   <div class="visible-xs hidden-sm">
-   	<div class="row">
-   		<div class="col-xs-12 backgroundColorXS navbar-fixed-top">
-			<div class="col-xs-1 "><span class="glyphicon glyphicon-list iconOptions" aria-hidden="true" id="options"></span></div>
-			<div class="col-xs-1 col-xs-offset-9"><span class="glyphicon glyphicon-search iconOptions" aria-hidden="true" id="option"></span></div>
-   		</div>
-   	</div>
-   </div>
-		<div class="container ">
+
+		<div class="container headerContainer">
 			<div class="row   hidden-xs">
-					<!-- backround-Image -->
-				<div class="col-sm-3 ">
+								<!-- backround-Image -->
+				<div class="col-sm-2 col-md-3 ">
                    	<a href="#">  <img src="https://ld-wp.template-help.com/wordpress_64077/wp-content/themes/operationcode/assets/images/invert-logo.png"" alt="" class="logo"></a>
+                   	<!-- sign up button added here to accomodate in small screen -->
+                   	<div class="positionButton  visible-sm hidden-md">
+					<div class="buttonSign"><p class="sign">SIGN UP</p></div>
+				</div>	
 				</div>
-			<div class="hidden-sm col-md-7 marginTopMd"> 
+									<!-- menu -->
+
+			<div class=" col-sm-8 col-md-7 marginTop"> 
 				<ul class="inlineList ">
-					
 					<li class="inline "><a href="#" class="paragraphs ">About</a></li>
 					<li  class="inline paragraphs "><a href="#" class="paragraphs">Past</a></li>
 					<li  class="inline paragraphs  hidden-md "><a href="#" class="paragraphs">Testimonials</a></li>
@@ -50,181 +70,192 @@
 					<li  class="inline paragraphs   "><a href="#" class="paragraphs">Tickets</a></li>
 					<li  class="inline paragraphs"><a href="#" class="paragraphs">Contacts</a></li>
 					<li  class="inline paragraphs more"><a href="#" class="paragraphs  ">More</a>
-					<span class="glyphicon glyphicon-menu-down drop-down" aria-hidden="true" id="options1"></span>
-									
-									<div class="box menu ">
+						<span class="glyphicon glyphicon-menu-down drop-down" aria-hidden="true" id="drop-down-style"></span>	
+									<div class="first-child-menu menu ">
 										<div class="arrowUp"></div>
 										<div class="TestimonialsWrapper visible-md">
 											<p class=" Testimonials">Testimonials <span class="glyphicon glyphicon-menu-right modify4" aria-hidden="true"></span></p>
-</p>
 										</div>
 										<div class="mainPage">
 
-											<p class="pages ">Pages <span class="glyphicon glyphicon-menu-right modify" aria-hidden="true"></span></p>
-
-													<div class="childMenu">
+											<p class="Style-Pages-Text ">Pages <span class="glyphicon glyphicon-menu-right Icon-Style" aria-hidden="true"></span></p>
+													<!-- Child Menu -->
+													<div class="first-Child-Menu">
 														<div class="coleredBackground">
 
-														<p class="pages1"><span class="wrappingSpan">Static Elements</span> <span class="glyphicon glyphicon-menu-right modify1" aria-hidden="true"></span>
+														<p class="pages1"><span class="wrappingSpan">Static Elements</span> <span class="glyphicon glyphicon-menu-right Icon-Style-1" aria-hidden="true"></span>
 															<div class="Static">
-																<div class="colors">
+																<div class="wrapper-Paragraph">
 																	<p class="pages1">lorem ipsum </p>
 																</div>
-																<div class="colors">
-																	<p class="pages2">lorem ipsum</p>
+																<div class="wrapper-Paragraph">
+																	<p class="Text-Style">lorem ipsum</p>
 																</div>
-																<div class="colors">
-																	<p class="pages2">lorem ipsum</p>
+																<div class="wrapper-Paragraph">
+																	<p class="Text-Style">lorem ipsum</p>
 																</div>
-																<div class="colors">
-																	<p class="pages2">lorem ipsum</p>
+																<div class="wrapper-Paragraph">
+																	<p class="Text-Style">lorem ipsum</p>
 																</div>
-																<div class="colors">
-																	<p class="pages2">lorem ipsum</p>
+																<div class="wrapper-Paragraph">
+																	<p class="Text-Style">lorem ipsum</p>
 																</div>
-																<div class="colors">
-																	<p class="pages2">lorem ipsum</p>
+																<div class="wrapper-Paragraph">
+																	<p class="Text-Style">lorem ipsum</p>
 																</div>
-																<div class="colors">
-																	<p class="pages2">lorem ipsum</p>
+																<div class="wrapper-Paragraph">
+																	<p class="Text-Style">lorem ipsum</p>
 																</div>
-																<div class="colors">
-																	<p class="pages2">lorem ipsum</p>
+																<div class="wrapper-Paragraph">
+																	<p class="Text-Style">lorem ipsum</p>
 																</div>
-																<div class="colors">
-																	<p class="pages2">lorem ipsum</p>
+																<div class="wrapper-Paragraph">
+																	<p class="Text-Style">lorem ipsum</p>
 																</div>
-																<div class="colors">
-																	<p class="pages2">lorem ipsum</p>
+																<div class="Modify-Last-Menu-Item">
+																	<div class="wrapper-Paragraph1">
+																		<p class="Text-Style">lorem ipsum</p>
+																	</div>
 																</div>
 															</div>
 													</div>
 													<div class="coleredBackground">
-														<p class="pages2"><span class="wrappingSpan">Dynamic Elements </span>  <span class="glyphicon glyphicon-menu-right modify1" aria-hidden="true"></p>
+														<p class="Text-Style"><span class="wrappingSpan">Dynamic Elements </span>  <span class="glyphicon glyphicon-menu-right Icon-Style-1" aria-hidden="true"></p>
 														<div class="Dynamic">
 															<div class="colorado">
-																<p class="pages3">Dynamic</p>
+																<p class="Style-Unique-Text">Dynamic</p>
 															</div>
 														</div>
 													</div>
 													<div class="coleredBackground">
-														<p  class="pages2"><span class="wrappingSpan">Post Formats </span> <span class="glyphicon glyphicon-menu-right modify1" aria-hidden="true"></p>
+														<p  class="Text-Style"><span class="wrappingSpan">Post Formats </span> <span class="glyphicon glyphicon-menu-right Icon-Style-1" aria-hidden="true"></p>
 															<div class="Post">
-														<div class="colors">
+														<div class="wrapper-Paragraph">
 																	<p class="pages1">lorem ipsum</p>
 																</div>
-																<div class="colors">
-																	<p class="pages2">lorem ipsum</p>
+																<div class="wrapper-Paragraph">
+																	<p class="Text-Style">lorem ipsum</p>
 																</div>
-																<div class="colors">
-																	<p class="pages2">lorem ipsum</p>
+																<div class="wrapper-Paragraph">
+																	<p class="Text-Style">lorem ipsum</p>
 																</div>
-																<div class="colors">
-																	<p class="pages2">lorem ipsum</p>
+																<div class="wrapper-Paragraph">
+																	<p class="Text-Style">lorem ipsum</p>
 																</div>
-																<div class="colors">
-																	<p class="pages2">lorem ipsum</p>
+																<div class="wrapper-Paragraph">
+																	<p class="Text-Style">lorem ipsum</p>
 																</div>
-																<div class="colors">
-																	<p class="pages2">lorem ipsum</p>
+																<div class="wrapper-Paragraph">
+																	<p class="Text-Style">lorem ipsum</p>
 																</div>
-																<div class="colors">
-																	<p class="pages2">lorem ipsum</p>
+																<div class="Modify-Last-Menu-Item">
+																	<div class="wrapper-Paragraph1">
+																		<p class="Text-Style">lorem ipsum</p>
+																	</div>
 																</div>
-
 															</div>
 													</div>
 													<div class="coleredBackground">
-														<p  class="pages2"><span class="wrappingSpan">Blog Layout </span> <span class="glyphicon glyphicon-menu-right modify1" aria-hidden="true"></p>
+														<p  class="Text-Style"><span class="wrappingSpan">Blog Layout </span> <span class="glyphicon glyphicon-menu-right Icon-Style-1" aria-hidden="true"></p>
 														<div class="Blog">
-															<div class="colors">
+															<div class="wrapper-Paragraph">
 																	<p class="pages1">lorem ipsum</p>
 																</div>
-																<div class="colors">
-																	<p class="pages2">lorem ipsum</p>
+																<div class="wrapper-Paragraph">
+																	<p class="Text-Style">lorem ipsum</p>
 																</div>
-																<div class="colors">
-																	<p class="pages2">lorem ipsum</p>
+																<div class="wrapper-Paragraph">
+																	<p class="Text-Style">lorem ipsum</p>
 																</div>
-																<div class="colors">
-																	<p class="pages2">lorem ipsum</p>
+																<div class="wrapper-Paragraph">
+																	<p class="Text-Style">lorem ipsum</p>
 																</div>
-																<div class="colors">
-																	<p class="pages2">lorem ipsum</p>
+																<div class="wrapper-Paragraph">
+																	<p class="Text-Style">lorem ipsum</p>
 																</div>
-																<div class="colors">
-																	<p class="pages2">lorem ipsum</p>
+																<div class="wrapper-Paragraph">
+																	<p class="Text-Style">lorem ipsum</p>
 																</div>
-																<div class="colors">
-																	<p class="pages2">lorem ipsum</p>
+																<div class="Modify-Last-Menu-Item">
+																	<div class="wrapper-Paragraph">
+																		<p class="Text-Style">lorem ipsum</p>
+																	</div>
 																</div>
 														</div>
 													</div>
 													<div class="coleredBackground">
-														<p  class="pages2"><span class="wrappingSpan">Side Bar</span>  <span class="glyphicon glyphicon-menu-right modify1" aria-hidden="true"></p>
+														<p  class="Text-Style"><span class="wrappingSpan">Side Bar</span>  <span class="glyphicon glyphicon-menu-right Icon-Style-1" aria-hidden="true"></p>
 														<div class="Bar">
-															<div class="colors">
+															<div class="wrapper-Paragraph">
 																	<p class="pages1">lorem ipsum</p>
 																</div>
-																<div class="colors">
-																	<p class="pages2">lorem ipsum</p>
+																<div class="wrapper-Paragraph">
+																	<p class="Text-Style">lorem ipsum</p>
 																</div>
-																<div class="colors">
-																	<p class="pages2">lorem ipsum</p>
+																<div class="wrapper-Paragraph">
+																	<p class="Text-Style">lorem ipsum</p>
 																</div>
-																<div class="colors">
-																	<p class="pages2">lorem ipsum</p>
+																<div class="Modify-Last-Menu-Item">
+																	<div class="wrapper-Paragraph1">
+																		<p class="Text-Style">lorem ipsum</p>
+																	</div>
 																</div>
 														</div>
 													</div>
 													<div class="coleredBackground">
-														<p  class="pages2"><span class="wrappingSpan">Headers  </span><span class="glyphicon glyphicon-menu-right modify1" aria-hidden="true"></p>
+														<p  class="Text-Style"><span class="wrappingSpan">Headers  </span><span class="glyphicon glyphicon-menu-right Icon-Style-1" aria-hidden="true"></p>
 														<div class="Head">
-															<div class="colors">
+															<div class="wrapper-Paragraph">
 																	<p class="pages1">lorem ipsum</p>
 																</div>
-																<div class="colors">
-																	<p class="pages2">lorem ipsum</p>
+																<div class="wrapper-Paragraph">
+																	<p class="Text-Style">lorem ipsum</p>
 																</div>
-																<div class="colors">
-																	<p class="pages2">lorem ipsum</p>
+																<div class="wrapper-Paragraph">
+																	<p class="Text-Style">lorem ipsum</p>
 																</div>
-																<div class="colors">
-																	<p class="pages2">lorem ipsum</p>
+																<div class="wrapper-Paragraph">
+																	<p class="Text-Style">lorem ipsum</p>
 																</div>
-																<div class="colors">
-																	<p class="pages2">lorem ipsum</p>
+																<div class="wrapper-Paragraph">
+																	<p class="Text-Style">lorem ipsum</p>
 																</div>
-																<div class="colors">
-																	<p class="pages2">lorem ipsum</p>
+																<div class="wrapper-Paragraph">
+																	<p class="Text-Style">lorem ipsum</p>
 																</div>
-																<div class="colors">
-																	<p class="pages2">lorem ipsum</p>
+																<div class="Modify-Last-Menu-Item">
+																	<div class="wrapper-Paragraph1">
+																		<p class="Text-Style">lorem ipsum</p>
+																	</div>
 																</div>
 														</div>
 													</div>
 													<div class="coleredBackground">
-														<p  class="pages2"><span class="wrappingSpan">Footer </span> <span class="glyphicon glyphicon-menu-right modify1" aria-hidden="true"></p>
+														<p  class="Text-Style"><span class="wrappingSpan">Footer </span> <span class="glyphicon glyphicon-menu-right Icon-Style-1" aria-hidden="true"></p>
 														<div class="foot">
-															<div class="colors">
+															<div class="wrapper-Paragraph">
 																	<p class="pages1">lorem ipsum</p>
 																</div>
-																<div class="colors">
-																	<p class="pages2">lorem ipsum</p>
+																<div class="wrapper-Paragraph">
+																	<p class="Text-Style">lorem ipsum</p>
 																</div>
-																<div class="colors">
-																	<p class="pages2">lorem ipsum</p>
+																<div class="Modify-Last-Menu-Item">
+																	<div class="wrapper-Paragraph1">
+																		<p class="Text-Style">lorem ipsum</p>
+																	</div>
 																</div>
 														</div>
 													</div>
 													<div class="coleredBackground">
-														<p  class="pages2">Tipography</p>
+														<p  class="Text-Style">Tipography</p>
 													</div>
 													<div class="coleredBackground">
-														<p  class="pages2">Page 404</p>
+														<p  class="Text-Style">Page 404</p>
 													</div>
-													<div class="coleredBackground">
-														<p  class="pages2">Documentation</p>
+													<div class="Modify-Last-Menu-Item">
+														<div class="coleredBackground1">
+															<p  class="Text-Style">Documentation</p>
+														</div>
 													</div>
 											</div>
 										</div>
@@ -232,209 +263,16 @@
 				</li>
 				</ul>
 				</div>
-				<div class="col-md-2  hidden-sm ">
+				<div class="col-md-2 hidden-sm ">
 					<div class="buttonSign"><p class="sign">SIGN UP</p></div>
 				</div>	
 
-				<!-- sm -->
-				<div class=" col-sm-3 col-sm-offset-6 hidden-md  hidden-lg hidden-xl getDown">
-					<div class="buttonSign"><p class="sign">SIGN UP</p></div>
-				</div>	
-				<!-- xs -->
-
+				
+	
 
 		</div>	
-		<!-- sm Menu -->
-		<div class="row visible-sm top">
-			<div class="col-sm-12">
-			<ul class="inlineList ">
-					
-					<li class="inline "><a href="#" class="paragraphs ">About</a></li>
-					<li  class="inline paragraphs "><a href="#" class="paragraphs">Past</a></li>
-					<li  class="inline paragraphs  hidden-md "><a href="#" class="paragraphs">Testimonials</a></li>
-					<li  class="inline paragraphs  "><a href="#" class="paragraphs">Teams</a></li>
-					<li  class="inline paragraphs   "><a href="#" class="paragraphs">Tickets</a></li>
-					<li  class="inline paragraphs"><a href="#" class="paragraphs">Contacts</a></li>
-					<li  class="inline paragraphs more"><a href="#" class="paragraphs  ">More</a>
-					<span class="glyphicon glyphicon-menu-down drop-down" aria-hidden="true" id="options1"></span>
-									
-									<div class="box menu">
-										<div class="mainPage">
+					<!-- xs html logp and button -->
 
-											<p class="pages">Pages <span class="glyphicon glyphicon-menu-right modify" aria-hidden="true"></span></p>
-
-													<div class="childMenu">
-														<div class="coleredBackground">
-
-														<p class="pages1"><span class="wrappingSpan">Static Elements </span><span class="glyphicon glyphicon-menu-right modifyMargin1" aria-hidden="true"></span>
-															<div class="Static">
-																<div class="colors">
-																	<p class="pages1">lorem ipsum </p>
-																</div>
-																<div class="colors">
-																	<p class="pages2">lorem ipsum</p>
-																</div>
-																<div class="colors">
-																	<p class="pages2">lorem ipsum</p>
-																</div>
-																<div class="colors">
-																	<p class="pages2">lorem ipsum</p>
-																</div>
-																<div class="colors">
-																	<p class="pages2">lorem ipsum</p>
-																</div>
-																<div class="colors">
-																	<p class="pages2">lorem ipsum</p>
-																</div>
-																<div class="colors">
-																	<p class="pages2">lorem ipsum</p>
-																</div>
-																<div class="colors">
-																	<p class="pages2">lorem ipsum</p>
-																</div>
-																<div class="colors">
-																	<p class="pages2">lorem ipsum</p>
-																</div>
-																<div class="colors">
-																	<p class="pages2">lorem ipsum</p>
-																</div>
-															</div>
-													</div>
-													<div class="coleredBackground">
-														<p class="pages2"><span class="wrappingSpan">Dynamic Elements</span>  <span class="glyphicon glyphicon-menu-right modifyMargin2" aria-hidden="true"></p>
-														<div class="Dynamic">
-															<div class="colorado">
-																<p class="pages3">Dynamic</p>
-															</div>
-														</div>
-													</div>
-													<div class="coleredBackground">
-														<p  class="pages2"><span class="wrappingSpan">Post Formats </span> <span class="glyphicon glyphicon-menu-right modifyMargin3" aria-hidden="true"></p>
-															<div class="Post">
-														<div class="colors">
-																	<p class="pages1">lorem ipsum</p>
-																</div>
-																<div class="colors">
-																	<p class="pages2">lorem ipsum</p>
-																</div>
-																<div class="colors">
-																	<p class="pages2">lorem ipsum</p>
-																</div>
-																<div class="colors">
-																	<p class="pages2">lorem ipsum</p>
-																</div>
-																<div class="colors">
-																	<p class="pages2">lorem ipsum</p>
-																</div>
-																<div class="colors">
-																	<p class="pages2">lorem ipsum</p>
-																</div>
-																<div class="colors">
-																	<p class="pages2">lorem ipsum</p>
-																</div>
-
-															</div>
-													</div>
-													<div class="coleredBackground">
-														<p  class="pages2"><span class="wrappingSpan">Blog Layout  </span><span class="glyphicon glyphicon-menu-right modifyMargin4" aria-hidden="true"></p>
-														<div class="Blog">
-															<div class="colors">
-																	<p class="pages1">lorem ipsum</p>
-																</div>
-																<div class="colors">
-																	<p class="pages2">lorem ipsum</p>
-																</div>
-																<div class="colors">
-																	<p class="pages2">lorem ipsum</p>
-																</div>
-																<div class="colors">
-																	<p class="pages2">lorem ipsum</p>
-																</div>
-																<div class="colors">
-																	<p class="pages2">lorem ipsum</p>
-																</div>
-																<div class="colors">
-																	<p class="pages2">lorem ipsum</p>
-																</div>
-																<div class="colors">
-																	<p class="pages2">lorem ipsum</p>
-																</div>
-														</div>
-													</div>
-													<div class="coleredBackground">
-														<p  class="pages2"><span class="wrappingSpan">Side Bar</span>  <span class="glyphicon glyphicon-menu-right modifyMargin5" aria-hidden="true"></p>
-														<div class="Bar">
-															<div class="colors">
-																	<p class="pages1">lorem ipsum</p>
-																</div>
-																<div class="colors">
-																	<p class="pages2">lorem ipsum</p>
-																</div>
-																<div class="colors">
-																	<p class="pages2">lorem ipsum</p>
-																</div>
-																<div class="colors">
-																	<p class="pages2">lorem ipsum</p>
-																</div>
-														</div>
-													</div>
-													<div class="coleredBackground">
-														<p  class="pages2"><span class="wrappingSpan">Headers  </span><span class="glyphicon glyphicon-menu-right modifyMargin6" aria-hidden="true"></p>
-														<div class="Head">
-															<div class="colors">
-																	<p class="pages1">lorem ipsum</p>
-																</div>
-																<div class="colors">
-																	<p class="pages2">lorem ipsum</p>
-																</div>
-																<div class="colors">
-																	<p class="pages2">lorem ipsum</p>
-																</div>
-																<div class="colors">
-																	<p class="pages2">lorem ipsum</p>
-																</div>
-																<div class="colors">
-																	<p class="pages2">lorem ipsum</p>
-																</div>
-																<div class="colors">
-																	<p class="pages2">lorem ipsum</p>
-																</div>
-																<div class="colors">
-																	<p class="pages2">lorem ipsum</p>
-																</div>
-														</div>
-													</div>
-													<div class="coleredBackground">
-														<p  class="pages2"><span class="wrappingSpan">Footer </span> <span class="glyphicon glyphicon-menu-right modifyMargin7" aria-hidden="true"></p>
-														<div class="foot">
-															<div class="colors">
-																	<p class="pages1">lorem ipsum</p>
-																</div>
-																<div class="colors">
-																	<p class="pages2">lorem ipsum</p>
-																</div>
-																<div class="colors">
-																	<p class="pages2">lorem ipsum</p>
-																</div>
-														</div>
-													</div>
-													<div class="coleredBackground">
-														<p  class="pages2">Tipography</p>
-													</div>
-													<div class="coleredBackground">
-														<p  class="pages2">Page 404</p>
-													</div>
-													<div class="coleredBackground">
-														<p  class="pages2">Documentation</p>
-													</div>
-											</div>
-										</div>
-					
-				</li>
-				</ul>
-				</div>
-				</div>
-		</div>
 		<div class="col-xs-12 text-center visible-xs logoTop" >
 					<a href="#">  <img src="https://ld-wp.template-help.com/wordpress_64077/wp-content/themes/operationcode/assets/images/invert-logo.png"" alt="" ></a>
 
@@ -444,51 +282,37 @@
 				<div class="visible-xs extendWidth">	
 					<div class="buttonSignXS"><p class="sign">SIGN UP</p></div>
 				</div>
-				</div>				
-	</div>	
-	<!--    body -->
-		<div class="container ">
+				</div>		
+
+
+	<!--    body of Header -->
+		<div class="container  ">
 			<div class="row">
-				<div class="text-center hidden-md hidden-sm hidden-xs down">
-					<h1 class="parInBody">CYBER SECURITY</h1>
-				</div>
-				<div class="text-center visible-md visible-md down"  >
-					<h1 class="parInBodyMD">CYBER SECURITY</h1>
-				</div>
-				<div class="text-center hidden-md visible-sm">
-					<h1 class="parInBodySM">CYBER SECURITY</h1>
+				<div class="text-center hidden-xs down">
+					<h1 class="Style-Text-Body">CYBER SECURITY</h1>
 				</div>
 				<div class="text-center visible-xs">
-					<h1 class="parInBodyXS">CYBER SECURITY</h1>
+					<h1 class="Style-Text-Body-XS">CYBER SECURITY</h1>
 				</div>
 			</div>
-			<div class="text-center hidden-md hidden-sm hidden-xs marginText">
-					<h1 class="parInBody1">HACKED & EXPLAINED</h1>
-				</div>
-				<div class="text-center visible-md  marginText">
-					<h1 class="parInBody1MD">HACKED & EXPLAINED</h1>
-				</div>
-				<div class="text-center  visible-sm marginText">
-					<h1 class="parInBody1SM">HACKED & EXPLAINED</h1>
+
+			<div class="text-center  hidden-xs marginText">
+					<h1 class="Style-Text-Body1">HACKED & EXPLAINED</h1>
 				</div>
 				<div class="text-center visible-xs">
-					<h1 class="parInBody1SM">HACKED & EXPLAINED</h1>
+					<h1 class="Style-Text-Body-XS-1">HACKED & EXPLAINED</h1>
 				</div>
-				<div class="border col-sm-8 col-sm-offset-2 hidden-xs hidden-sm ">
+
+				<div class="border  col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 hidden-xs  ">
 					 <div class="bold text-center"></div>
-				</div>
-				<div class="border col-sm-8 col-sm-offset-2 visible-sm ">
-					 <div class="bold12 text-center"></div>
 				</div>
 				<div class="border col-xs-12 visible-xs hidden-sm">
 					 <div class="bold11 text-center"></div>
-				</div>
-				<!-- <div class="text-center" >  -->
-				    <!-- div class="ticket">
-						<h3 class="buy">Buy a ticket</h3>
-					</div> -->
-						
+				</div>		
 					</div>
+
+
+
 					<div class="container Cont">
 						<div class="col-sm-8 col-sm-offset-2 hidden-xs">
 							<p class="mainPar Margin">With 1000s of participants, enhance your knowledge to be sure that your web & tech assets are safe!</p>
@@ -498,150 +322,66 @@
 						</div>
 						
 					</div>
-					<div class="container ">
+					<div class="container button-ticket">
 						<div class="row">
-						 <div class="ticket ">
-								<h3 class="buy">Buy a ticket</h3>
+						 <div class="Button-ticketBuy-Wrapper ">
+								<h3 class="text-Style">Buy a ticket</h3>
 						</div>
 						</div>
 					</div>
 			
-		
+	
 </section>
+
+
+
 	<!-- white area -->
-<section name="whitearea" class="areaclass" id="area">
+<section name="whitearea" class="Icon-Section" id="area">
 	<div class="container ">
-		<div class="row hidden-sm">
-			<div class="whiteArea">
-			 <div class="wrapperHere">
-				<div class=" col-md-1  hidden-xs ">
+		<div class="row ">
+			<div class="Margin-Down">
+			 <div class="wrapper">
+				<div class="  col-sm-6 col-md-3  ">
 					<div class="shape1 ">
 						<span class="glyphicon glyphicon-xbt shape2" aria-hidden="true"></span>
 					</div>
-						<p class="xz">8</p>
-				<p class="px">Topics</p>
+						<p class="Style-Numbers">8</p>
+				<p class="Style-Text">Topics</p>
 
 					
 				</div>
-				<div class=" col-md-1  hidden-xs  res">
+				<div class=" col-xs-12 col-sm-6 col-md-3">
 
 					<div class="shape1">
 						<span class="glyphicon glyphicon-knight shape2" aria-hidden="true"></span>
 					</div>	
-					<p class="xz">10</p>
-					<p class="px">Years</p>
+					<p class="Style-Numbers">10</p>
+					<p class="Style-Text">Years</p>
 
 				</div>
-				<div class=" col-md-1 hidden-xs  res">
+				<div class="col-xs-12  col-sm-6 col-md-3"  >
 				<div class="shape1">
-					<div class="wrappingIcons">
+				
 						<span class="glyphicon glyphicon-apple shape2" aria-hidden="true"></span>
 					</div>
-					<p class="xz">39</p>
-					<p class="px">Speakers</p>
+					<p class="Style-Numbers">39</p>
+					<p class="Style-Text">Speakers</p>
 	
 				</div>		
 				</div>
 
-				<div class="  col-md-1  hidden-xs  res">
+				<div class="col-xs-12  col-sm-6 col-md-3  ">
 					<div class="shape1">
 						<span class="glyphicon glyphicon-education shape2" aria-hidden="true"></span>
 					</div>	
-					<p class="xz">40</p>
-					<p class="px">Attendees</p>
+					<p class="Style-Numbers">40</p>
+					<p class="Style-Text">Attendees</p>
 
 				</div>
 				</div>
 			</div>
 		</div>
-		<!-- sm -->
-	<div class="row hidden-xs hidden-md hidden-lg hidden-xl">	
-		<div class="col-sm-3 col-sm-offset-2 marginSMHere">
-			<div class="shape1 ">
-						<span class="glyphicon glyphicon-xbt shape2" aria-hidden="true"></span>
-					</div>
-						<p class="xzSM col-sm-offset-1">8</p>
-				<p class="px col-sm-offset-1">Topics</p>
-		</div>			
-		<div class="col-sm-3 col-sm-offset-2 marginSMHere">
-			<div class="shape1 ">
-						<span class="glyphicon glyphicon-knight shape2" aria-hidden="true"></span>
-					</div>
-						<p class="xzSM col-sm-offset-1">10</p>
-				<p class="px col-sm-offset-1">Years</p>
-		</div>
-		</div>	
-		<div class="row hidden-xs hidden-md hidden-lg hidden-xl">	
-		<div class="col-sm-3 col-sm-offset-2 marginSMHere">
-			<div class="shape1 ">
-						<span class="glyphicon glyphicon-apple shape2" aria-hidden="true"></span>
-					</div>
-						<p class="xzSM col-sm-offset-1">30</p>
-				<p class="px col-sm-offset-1">Speakers</p>
-		</div>			
-		<div class="col-sm-3 col-sm-offset-2 marginSMHere">
-			<div class="shape1 ">
-						<span class="glyphicon glyphicon-education shape2" aria-hidden="true"></span>
-					</div>
-						<p class="xzSM col-sm-offset-1">40</p>
-				<p class="px col-sm-offset-1 marginSMHere1">Attendees</p>
-		</div>
-		</div>		
-
-
-		<!-- xs html -->
-		<div class="row rowXS">
-			<div class="col-xs-12 visible-xs">
-				<div class="shape1 ">
-						<span class="glyphicon glyphicon-xbt shape2" aria-hidden="true"></span>					
-					</div>
-					<div class="numberX">
-						<p class="xz">8</p>
-					</div>
-					<div class="sentence">
-						<p class="px">Topics</p>
-					</div>
-			</div>
-			<div class="col-xs-12 visible-xs">
-				<div class="shape1 ">
-					<span class="glyphicon glyphicon-knight shape2" aria-hidden="true"></span>
-					
-					</div>
-					<div class="numberX">
-						<p class="xz">10</p>
-					</div>
-					<div class="sentence">
-						<p class="px">Years</p>
-					</div>
-			</div>
-		</div>
-		<div class="col-xs-12 visible-xs">
-				<div class="shape1 ">
-					<span class="glyphicon glyphicon-apple shape2" aria-hidden="true"></span>
-					
-					</div>
-					<div class="numberX">
-						<p class="xz">30</p>
-					</div>
-					<div class="sentence">
-						<p class="px">Speakers</p>
-					</div>
-			</div>
-			<div class="col-xs-12 visible-xs">
-				<div class="shape1 ">
-					<span class="glyphicon glyphicon-education shape2" aria-hidden="true"></span>
-					
-					</div>
-					<div class="numberX">
-						<p class="xz">40</p>
-					</div>
-					<div class="sentence">
-						<p class="px">Attendees</p>
-					</div>
-			</div>
-		</div>
-		
-
+	</div>
 </section>
 
 
@@ -652,71 +392,34 @@
 		<div class="row marginG hidden-xs">
 			<div class="col-sm-4 hi">	
 				<div class="col-sm-offset-8">
-					<h2 class="text hidden-sm hidden-md">About</h2>
-					<h2 class="textSM visible-sm hidden-md">About</h2>
-					<h2 class="textMD visible-md">About</h2>
+					<h2 class="text ">About</h2>
 				</div>
 					
 			</div>
 			<div class="col-sm-8 margin4">	
-				<div class="col-sm-10 col-sm-offset-2 hidden-sm">
-					<p class="text1 hidden-sm">Whether You Work in a Government or a Commercial Facility, Cyber Security is No Joke!</p>
-					
-				</div>
-				<div class="col-sm-11 marginHere visible-sm">
-					<p class="text1SM visible-sm">Whether You Work in a Government or a Commercial Facility, Cyber Security is No Joke!</p>
+				<div class="col-sm-11 col-md-10 col-md-offset-2 marginHere">
+					<p class="text1 ">Whether You Work in a Government or a Commercial Facility, Cyber Security is No Joke!</p>
 				</div>
 			</div>
 		</div>
 		<div class="row margin hidden-xs">  
 			<div class="col-sm-4">	
-				<div class="col-sm-offset-2 col-sm-10 hidden-sm classMargin hidden-md">
+				<div class="col-sm-offset-6 col-md-offset-6 col-lg-offset-2 col-lg-10  classMargin ">
 					<div class="border">
-					<div class="inside hidden-md hidden-sm ">
-						
+					<div class="inside ">
 					</div>
-					
-				
-				</div>
-					
-			</div>
-			<div class="col-sm-offset-6  hidden-md visible-sm classMarginSM">
-					<div class="border">
-					<div class="insideSM  visible-sm">
-						
-					</div>
-					
-		
-				</div>
-					
-			</div>
-			<div class="col-sm-offset-6   visible-md classMarginMD">
-					<div class="border">
-					<div class="insideSM visible-md hidden-sm">
-						
-					</div>
-					
-		
-				</div>
-					
-			</div>
+				</div>					
+			</div>			
 		</div>
 		<div class="row marginG hidden-xs">
 			<div class="col-sm-4">	
-				<div class="col-sm-offset-2 col-sm-10 margin6 hidden-sm hidden-md">
+				<div class="col-sm-12 col-lg-offset-2 col-lg-10 margin6 ">
 					<p class="text3">CYBER SECURITY CONFERENCE</p>
-				</div>		
-				<div class="col-sm-12 margin6SM visible-sm text-right hidden-md ">
-					<p class="text3SM">CYBER SECURITY CONFERENCE</p>
-				</div>
-				<div class="col-sm-12 margin6SM visible-md text-right ">
-					<p class="text3MD">CYBER SECURITY CONFERENCE</p>
-				</div>					
+				</div>						
 			</div>
 			<div class="col-sm-8 margin5">	
 				<div class="col-sm-10 col-sm-offset-2">
-					<p class="text2 hidden-sm">Working with your website’s or your application’s backend architecture is just as important as making sure that the wheelbase of your car is ok, before driving it. This is why we are sure that coding hackathon’s such as the OperationCode is, provides awesome, deadline-rich practice for all of these skills!</p>
-					<p class="text2SM visible-sm">Working with your website’s or your application’s backend architecture is just as important as making sure that the wheelbase of your car is ok, before driving it. This is why we are sure that coding hackathon’s such as the OperationCode is, provides awesome, deadline-rich practice for all of these skills!</p>
+					<p class="text2 ">Working with your website’s or your application’s backend architecture is just as important as making sure that the wheelbase of your car is ok, before driving it. This is why we are sure that coding hackathon’s such as the OperationCode is, provides awesome, deadline-rich practice for all of these skills!</p>
 				</div>
 			</div>
 		</div>

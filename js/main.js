@@ -60,14 +60,33 @@
 
 // });
 $("#options").click(function(){
-$(".fullMobile").toggle();
-$("#Header").toggle();
-$("#area").toggle();
-$("#third").toggle();
+	$("#options").hide();
+	$("#close2").show();
+	$(".fullMobile").toggle();
+	$("#Header").toggle();
+	$("#area").toggle();
+	$("#third").toggle();
 });
-$("#close").click(function(){
-$(".fullMobile").hide();
-$("#Header").show();
-$("#area").show();
-$("#third").show();
+$("#close2").click(function(){
+	$("#options").show();
+	$("#close2").hide();
+	$(".fullMobile").hide();
+	$("#Header").show();
+	$("#area").show();
+	$("#third").show();
+});
+
+$("#searchIcon").click(function(){
+		$("#search").animate({
+			"margin-top":"4%"
+		},"slow");
+		$("#searchIcon").fadeOut("slow");
+		$("#margin").animate({"margin-top":"1%"},"slow");
+});
+$("#close1").click(function(){
+		$("#search").animate({
+			"margin-top":"-5.6%"
+		},"slow");
+		$("#searchIcon").fadeIn("slow");
+		$("#margin").animate({"margin-top":"-6.2%"},"slow");
 });

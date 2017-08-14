@@ -1,0 +1,734 @@
+body{
+		font-family: Work Sans;
+		font-style: normal;
+		margin: 0px;
+		padding: 0px;
+
+}
+
+/*Mobile XS CSS*/
+
+.Mobile	.backgroundColorXS{
+	background-color: white;
+	height: 43px;
+    box-shadow: 1px 1px 5px #eee;
+}
+	.Mobile .margin{
+		margin-top: 2.8%;
+	}
+	#options{
+	    font-size: 17px;
+	    cursor: pointer;
+	}
+	#close2{
+		cursor: pointer;
+		display: none;
+		}
+	#margin{
+		margin-top: -6.2%;
+	}
+
+	#search {
+		margin-top: -5.6%;
+	}
+	#close1{
+		margin-bottom: 2%;
+		display: block;
+		cursor: pointer;
+	}
+	
+.Mobile .iconOptions{
+
+    font-size: 16px;
+}
+
+ .Mobile .iconOptions:hover{
+    	cursor: pointer;
+    }
+
+/*Header*/
+
+.Header{
+	background-image: url("https://ld-wp.template-help.com/wordpress_64077/wp-content/uploads/2016/11/slide-1.jpg");
+	/*background-size:100% 760px;*/
+	background-repeat: no-repeat;
+	display: block;
+	overflow: hidden;
+	background-size: cover;
+}
+
+.Header .logo{
+	margin-top:  7.5%;
+    margin-left: -1%;
+}
+.Header .positionButton{
+		position: absolute;
+		right: -526%;
+		top: -8px;
+	}
+	.Header .marginTop{
+	margin-top: 3%;
+}
+.Header .buttonSign{
+	    width: 135px;
+	    height: 38px;
+	    color: white;
+	    border-radius: 4px;
+	    border: 1px solid white;
+	  margin-top: 17%
+
+	}
+.Header	.buttonSign:hover{
+	transition-duration: .5s;
+	background: #6839ff;
+	cursor: pointer;
+	color: white
+}
+.Header .buttonSignXS{
+  width: 135px;
+	    height: 38px;
+	    color: white;
+	    border-radius: 4px;
+	    border: 1px solid white;
+	  margin-top: 17%;
+	margin:0 auto;
+	}
+.Header	.buttonSignXS:hover{
+	transition-duration: .5s;
+	background: #6839ff;
+	cursor: pointer;
+}
+.Header .sign{
+	    margin-top: 6%;	
+	    text-transform: uppercase;
+	    text-align: center;
+	    font-weight: bold;
+		font-family: Work Sans,sans-serif;
+
+}
+	.Header .inlineList{
+    list-style: none;
+    color: white;
+    margin-top: 3%;
+    width: 100%;
+    margin: 0 auto;
+}
+.Header .paragraphs{
+	text-decoration: none;
+	color: #ffffff;
+	line-height:28px;
+	padding-bottom: 8px;
+	 font-size: 16px;
+	 font-weight: 300;
+	font-family: 'Work Sans', sans-serif;
+
+}
+.Header a.paragraphs:hover{
+	border-bottom: 2px solid white;
+
+}
+#drop-down-style{
+	font-size: 11px;
+}
+.Header .first-child-menu{
+		visibility: hidden;
+	    position: absolute;
+	    background: white;
+	    border-radius: 4px;
+        height: 52px;
+    	width: 190px;
+	    top:65px;
+	    left: -5px;
+        padding-top: 1%;
+		transition: all .5s linear;
+}
+.more:hover .first-child-menu{
+		top:50px;
+		bottom:0px;
+		display: block;
+		visibility: visible;
+		cursor: pointer;
+}
+.Header .arrowUp{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-bottom: 10px solid white;
+    top: -9px;
+    left: 49px;
+
+}
+.menu .modify4{
+		padding-left: 44px;
+		font-size: 10px;
+	}
+.Header .Testimonials{
+    margin-top: 5%;
+    font-size: 14px;
+	color: black;
+	width: 100%;
+    margin-left: 11%;
+}
+.Header .Testimonials:hover{
+   color: white;
+}
+.Header .TestimonialsWrapper{
+	border-bottom:1px solid #eee;
+	width: 100%;
+	height: 33px;
+}
+.Header .TestimonialsWrapper:hover {
+	color: white;
+    background: #4911ff;
+    cursor: pointer;
+}
+.menu .Icon-Style{
+		padding-left: 80px;
+		font-size: 10px;
+	}
+	.menu .Icon-Style-1{
+		padding-left: 20px;
+		font-size: 10px;
+		display: inline-block
+	}
+.more{
+	position: relative;
+	height: 100px;
+	z-index: 10;
+}
+
+.wrappingSpan{
+	    width: 71%;
+    display: inline-block;
+}
+.menu .Style-Pages-Text{
+    margin-left: 15%;
+    margin-top: 6%;
+        font-size: 14px;
+}
+.menu .Style-Pages-Text:hover{
+    color: white;
+}
+ .Modify-Last-Menu-Item{
+    	height: 46px;
+    }
+.menu .pages1{
+    margin-left: 15%;
+    margin-top: 4%;
+    padding-top: 2%;
+     font-size: 14px;
+}
+.menu .Text-Style{
+    margin-left: 15%;
+    padding-top: 3%;
+     font-size: 14px;
+}
+.menu .mainPage{
+	position: relative;
+	color: black;
+}
+
+.mainPage:hover{
+	color: white;
+    height: 30px;
+    background: #4911ff;
+    margin-top: -2px;
+    cursor: pointer;
+}
+.menu .first-Child-Menu{
+	visibility: hidden;
+    position: absolute;
+    background: white;
+    width:209px;
+    border-radius: 4px;
+    right: 194px;
+    top: 1px;
+	transition: all .5s linear;
+}
+.menu .mainPage:hover .first-Child-Menu{
+	top: -9px;
+	visibility: visible;
+	color: black;
+	cursor: pointer;
+	}
+	.menu .coleredBackground{
+		height: 40px;
+		border-bottom: 1px solid #eee;
+		position: relative;
+	}
+	.menu .coleredBackground:hover{
+		color: white;
+	    height: 40px;
+	    background: #4911ff;
+	    cursor: pointer;
+		}
+		.menu .coleredBackground1{
+		height: 40px;
+		position: relative;
+	}
+	.menu .coleredBackground1:hover{
+		color: white;
+	    height: 40px;
+	    background: #4911ff;
+	    cursor: pointer;
+		}
+		.Static{
+			visibility: hidden;
+		    position: absolute;
+		    background: white;
+	        width: 213px;
+		    top: -2px;
+		        right: 215px;
+		    border-radius: 4px;
+		    transition: all .1s linear;
+		}
+		.menu .coleredBackground:hover .Static{
+			visibility: visible;
+			top: -6px;
+			color: black;
+			cursor: pointer;
+		}
+	.menu .wrapper-Paragraph{
+		height: 40px;
+		border-bottom: 1px solid #eee;
+	}
+	.menu .wrapper-Paragraph:hover{
+		color: white;
+	    height: 40px;
+	    background: #4911ff;
+	    cursor: pointer;
+	}
+	.menu .wrapper-Paragraph1 { 
+		height: 40px;
+		/*border-bottom: 1px solid #eee;*/
+	}
+	.menu .wrapper-Paragraph1:hover{
+		color: white;
+	    height: 40px;
+	    background: #4911ff;
+	    cursor: pointer;
+	}
+	.menu .Dynamic{
+	    position: absolute;
+	    height: 43px;
+        width: 213px;
+	    border-radius: 4px;
+	    top: 4px;
+	       right: 215px;
+	    background: white;
+	    visibility: hidden;
+    	transition: all .1s linear;
+
+	}
+	.menu .coleredBackground:hover .Dynamic{
+		visibility: visible;
+			top: -2px;
+			color: black;
+			cursor: pointer;
+	}
+	.menu .colorado:hover{
+			color: white;
+			cursor: pointer;
+	    	background: #4911ff;
+	}
+	.menu .Style-Unique-Text{
+		margin-top: 4%;
+		margin-left: 15%;
+    	
+	}
+	.menu .Post{
+		 position: absolute;
+        width: 213px;
+	    border-radius: 4px;
+	    top: -1px;
+	      right: 215px;
+	    background: white;
+	    visibility: hidden;
+    	transition: all .1s linear;
+	}
+	.menu .coleredBackground:hover .Post{
+		visibility: visible;
+			top: -2px;
+			color: black;
+			cursor: pointer;
+	}
+	.menu .Blog{
+		position: absolute;
+        width: 213px;
+	    border-radius: 4px;
+	    top: -1px;
+    	right: 215px;	    
+    	background: white;
+	    visibility: hidden;
+    	transition: all .1s linear;
+	}
+	.menu .coleredBackground:hover .Blog{
+		visibility: visible;
+			top: -2px;
+			color: black;
+			cursor: pointer;
+	}
+	.menu .Bar{
+		 position: absolute;
+        width: 213px;
+	    border-radius: 4px;
+	    top: -1px;
+        right: 215px;
+	    background: white;
+	    visibility: hidden;
+    	transition: all .1s linear;
+	}
+	.menu .coleredBackground:hover .Bar{
+		visibility: visible;
+			top: -2px;
+			color: black;
+			cursor: pointer;
+	}
+	.menu .Head{
+		 position: absolute;
+        width: 213px;
+	    border-radius: 4px;
+	    top: -1px;
+        right: 215px;
+	    background: white;
+	    visibility: hidden;
+    	transition: all .1s linear;
+	}
+	.menu .coleredBackground:hover .Head{
+		visibility: visible;
+			top: -2px;
+			color: black;
+			cursor: pointer;
+	}
+
+	.menu .foot{
+		 position: absolute;
+        width: 213px;
+	    border-radius: 4px;
+	    top: -1px;
+        right: 215px;
+	    background: white;
+	    visibility: hidden;
+    	transition: all .1s linear;
+	}
+	.menu .coleredBackground:hover .foot{
+		visibility: visible;
+			top: -2px;
+			color: black;
+			cursor: pointer;
+	}
+
+
+	/*body*/
+
+	.Style-Text-Body{
+	color: white;
+	 font-size: 90px;
+	line-height: 90px;
+ 	font-weight: 700;
+	font-family: 'Work Sans', sans-serif;
+	text-transform: uppercase;
+}
+.Style-Text-Body1{
+	color: white;
+	 font-size: 60px;
+	line-height: 60px;
+ 	font-weight: 300;
+	font-family: 'Work Sans', sans-serif;
+	text-transform: uppercase;
+}
+.Style-Text-Body-XS{
+		color: white;
+		font-size: 40px;
+	 	line-height: 40px;
+		font-weight: 900;
+		font-family: 'Work Sans', sans-serif;
+		text-transform: uppercase;
+
+}
+
+.Style-Text-Body-XS-1{
+		color: white;
+	 	font-size: 36px;
+	 	line-height: 36px;
+	 	font-weight: 300;
+		font-family: 'Work Sans', sans-serif;
+		text-transform: uppercase;
+		margin-top: -1%;
+
+}
+ .down{
+	margin-top:7%;
+}
+ .border{
+	border-bottom: 1px solid #928d8d;
+       margin-top: 35px;
+}
+ .borderXS{
+	border-bottom: 4px solid white;
+    margin-top: 11px;
+}
+.bold{
+	border-bottom: 4px solid white;
+        width: 36%;
+        margin: 0 auto;
+            transform: translate(0px,2px);
+}
+.bold11{
+	border-bottom: 4px solid white;
+        width: 80%;
+        margin: 0 auto;
+            transform: translate(0px,2px);
+}
+.Button-ticketBuy-Wrapper{
+    background: #4911ff;
+    color: white;
+    border-radius: 4px;
+    height: 46px;
+    width: 208px;
+    transition:all .5s linear;
+	font-family: Work Sans,sans-serif;
+    margin: 0 auto;
+    margin-bottom: 21%;
+}
+ .button-ticket .text-Style{
+	    padding-top: 8px;
+	    text-transform: uppercase;
+	    width: 100%;
+	   text-align: center;
+	   	font-family: Work Sans;
+		font-weight: bold;
+		font-size: 20px;
+		padding-top: 11px;
+}
+ .Button-ticketBuy-Wrapper:hover{
+	background: #3a3744;
+	cursor: pointer;
+}
+
+
+/*Icon area*/
+
+.Icon-Section{
+	background-image: url("https://ld-wp.template-help.com/wordpress_64077/wp-content/uploads/2016/11/counter-bg.jpg");
+	background-size: cover;
+	    min-height: 360px;
+
+}
+ .Icon-Section .Margin-Down{
+	margin-top: 5%;
+    height: 139px;
+
+}
+
+
+
+.Icon-Section .wrapper{
+    margin: 0 auto;
+    display: block;
+}
+
+.Icon-Section  .shape1{
+	border-radius: 100%;
+	height: 116px;
+	width: 116px;
+	box-shadow: 1px 1px 5px #888888;
+	margin-bottom: 60%;
+	position: relative;
+	margin: 0 auto;
+}
+
+
+.Icon-Section   .shape2{
+    
+    font-size: 45px;
+    color: #6839ff;
+    transition:all .5s linear;
+	text-align: center;
+	line-height: 116px;
+	display: block;
+}
+ .Icon-Section  .shape1:hover{
+	background: #6839ff;
+	border: none;
+	cursor: pointer;
+	/*color: white;*/
+}
+.Icon-Section  .shape1:hover .shape2{
+color: white;
+
+cursor: pointer;
+}
+
+
+.Icon-Section .Style-Numbers{
+    margin-top: 8%;
+    font-size: 41px;
+    font-weight: bold;
+	text-align: center;
+}
+
+.Icon-Section .Style-Text{
+	font-style: normal;
+    font-size: 24px;
+	font-family: Work Sans,sans-serif;
+	text-align: center;
+    line-height: 30px;
+    color: #666666;
+}
+
+
+
+/*info*/
+.info{
+	background-image: url("https://ld-wp.template-help.com/wordpress_64077/wp-content/uploads/2016/11/about-bg.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	overflow: hidden;
+}
+.info .text{
+	font-size: 48px;
+    text-transform: uppercase;
+	font-style: normal;
+	font-weight: bold;
+	color: white;
+	font-family: Work Sans,sans-serif;
+}
+
+
+.info .textXS{
+	font-size: 31px;
+    text-transform: uppercase;
+	font-style: normal;
+	font-weight: bold;
+	color: white;
+	font-family: Work Sans,sans-serif;
+    margin-top: 34px;
+
+}
+.info .margin{
+	    margin-top: 2%;
+}
+.info .margin5{
+       margin-top: -4%;
+	   margin-left: -2%;
+}
+.info .margin4{
+	    margin-top: 1%;
+        margin-left: -2%;
+}
+.info .marginG{
+	    margin-top: 8%;
+	  
+}
+.info .margin6{
+	    margin-top: -15%;
+   		 margin-left: 42%;
+}
+
+.info .text1{
+	font-size: 24px;
+    line-height: 34px;
+	font-style: normal;
+	font-weight: bold;
+	color: white;
+		font-family: Work Sans,sans-serif;
+
+}
+
+.info .text1XS{
+	font-size: 22px;
+	font-style: normal;
+	font-weight: bold;
+	color: white;
+		font-family: Work Sans,sans-serif;
+
+}
+
+
+.info .align{
+	    margin-top: 1%;
+}
+.info .border {
+	border-bottom: 1px solid #928d8d;
+	
+	position: relative;
+
+    
+}
+.info .text2{
+	font-style: normal;
+    font-size: 20px;
+    letter-spacing: 0.7px;
+    color: #eee;
+    line-height: 35px;
+    font-family: Work Sans,sans-serif;
+    font-weight: 300;
+     margin-top: -6%;
+}
+.info .text2XS{
+	font-style: normal;
+    font-size: 20px;
+    letter-spacing: 0.7px;
+    color: #eee;
+    line-height: 35px;
+    font-family: Work Sans,sans-serif;
+    font-weight: 300;
+     margin-top: -6%;
+	margin-top: 7%;
+}
+.info .margin1{
+	margin-top: 2%;
+}
+.info .text3{
+	font-style: normal;
+    font-size: 30px;
+    letter-spacing: 0.7px;
+    line-height: 36px;
+    font-weight: 300;
+    color: white;
+	font-family: Work Sans,sans-serif;
+
+}
+
+.info .text3XS{
+	margin-top:5%;
+	font-style: normal;
+    font-size: 24px;
+    letter-spacing: 0.7px;
+    line-height: 36px;
+    font-weight: 300;
+    color: white;
+	font-family: Work Sans,sans-serif;
+
+}
+.info .addedValues{
+		width: 31%;
+
+}
+.info  .inside{
+    position: absolute;
+    border-bottom: 4px solid white;
+    top: 0px;
+    width: 99px;
+    transform: translate(228px,-2px);
+}
+.info  .insideMD{
+    position: absolute;
+    border-bottom: 4px solid white;
+    top: 0px;
+    width: 99px;
+    transform: translate(215px,-2px);
+}
+
+.info  .insideXS{
+    position: absolute;
+    border-bottom: 4px solid white;
+    top: 0px;
+     width: 96px;
+        width: 98px;
+    margin-top: -1px;
+
+}
